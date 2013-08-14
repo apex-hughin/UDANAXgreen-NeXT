@@ -1,0 +1,9 @@
+addtoopen:  user = 0  type = READBERT  created = 0  tp = 0.1.1.0.1.0.1~
+doclose: user = 0  tp = 0.1.1.0.1.0.1~
+removefromopen:  user = 0  tp = 0.1.1.0.1.0.1~
+addtoopen:  user = 0  type = WRITEBERT  created = 0  tp = 0.1.1.0.1.0.1~
+addtoopen:  user = 0  type = READBERT  created = 0  tp = 0.1.1.0.1.0.2~
+addtoopen:  user = 0  type = READBERT  created = 0  tp = 0.1.1.0.1.0.3~
+addtoopen:  user = 0  type = READBERT  created = 0  tp = 0.1.1.0.1.0.4~
+addtoopen:  user = 0  type = READBERT  created = 0  tp = 0.1.1.0.1.0.5~
+addtoopen:  user = 0  type = READBERT  created = 0  tp = 0.1.1.0.1.0.7~

@@ -1,0 +1,54 @@
+From Ali_Ozer@NeXT.COM Tue Feb 21 19:47:58 1989
+Return-Path: <Ali_Ozer@NeXT.COM>
+Received: from uunet.UUCP by xanadu.com id AA20500; Tue, 21 Feb 89 19:47:57 PST
+From: Ali_Ozer@NeXT.COM
+Received: from NEXT.COM by uunet.UU.NET (5.61/1.14) with SMTP 
+	id AA06069; Tue, 21 Feb 89 15:37:16 -0500
+Received: from popeye.NeXT.COM (popeye.NeXT.COM.18.129.IN-ADDR.ARPA) by sunset.NeXT.COM (4.0/NeXT0.0-Aleph)
+	id AA04693; Tue, 21 Feb 89 12:34:23 PST
+Message-Id: <8902212034.AA04693@sunset.NeXT.COM>
+Received: by popeye.NeXT.COM (NeXT-0.8/SMI-4.0Beta)
+	id AA00307; Tue, 21 Feb 89 12:38:29 PST
+Date: Tue, 21 Feb 89 12:38:29 PST
+To: xanadu!roger
+Cc: aozer@NeXT.COM
+Subject: more on close window...
+Status: R
+
+
+Roger,
+
+Here's the code to go through all the application's windows.
+Note that the below methods are for 0.8; thus the code for going through 
+windows will change under 0.9. (0.9 does not use the ObjC OrdCollection class.
+The only change is that the "size" method is renamed "count" in the
+0.9 List class; not a major change.)
+
+Ali
+
+------------------------------------------------------------------------------
+    register unsigned offset;
+    id windowList = [NXApp windowList];
+    int numWindows;
+    id theWindow;
+
+    numWindows = [windowList size];
+    for (offset = 0; offset < numWindows; offset++) {
+	theWindow = [windowList at:offset];
+	// do anything you want to the window except get rid of it (see below)
+    }
+
+------------------------------------------------------------------------------
+Here's another interesting tidbit; the way Application's terminate: method
+closes windows. You might find that if you want to close windows, you need
+to go backwards... If your method only saves and does not close, you can get 
+away with the code above.
+
+ /*
+  * Must go through in reverse order since close may remove the window
+  * from the ordered collection. 
+  */
+    if (offset = [windowList size])
+	for (offset--; offset >= 0; offset--)
+	    [[windowList at:offset] close];
+

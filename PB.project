@@ -1,0 +1,28 @@
+INSTALLDIR = "$(HOME)/Apps";
+APPICON = "";
+GENERATEMAIN = YES;
+DOCICONFILES = ();
+FILESTABLE = {
+    M_FILES = (marcsfe_main.m);
+    OTHER_LINKED = ();
+    H_FILES = (Controller.h);
+    CLASSES = (Controller.m);
+    IMAGES = (TextLabApp.tiff, TextLabDoc.tiff);
+    PSW_FILES = ();
+    C_FILES = ();
+    OTHER_SOURCES = ();
+    PSWM_FILES = ();
+    SOUNDS = ();
+    OTHER_LIBS = (Media_s, NeXT_s);
+    INTERFACES = (marcsfe.nib, parastyle1.nib);
+};
+APPCLASS = Application;
+MAINNIB = marcsfe;
+DOCEXTENSIONS = ();
+PROJECTTYPE = Application;
+LOCALIZABLE_FILES = {
+};
+PROJECTVERSION = 1.1;
+PROJECTNAME = marcsfe;
+SYSTEMEXTENSIONS = ();
+LANGUAGE = English;

@@ -1,0 +1,451 @@
+ALIGN		alloc.c	/^typedef nat ALIGN;/ ;" typedef 1 { }	{ }
+ALLOCSIZE		alloc.c	/^#define ALLOCSIZE \/*0xD000*\/  0xD000/ ;" macro 1 { weresurethisisourmorecore }	{ }
+BCOPYWORKS		feconfig.h	/^#define BCOPYWORKS 1/ ;" macro 1 { }	{ }
+BECOMECRUFTY		feminreq.h	/^#define BECOMECRUFTY             97/ ;" macro 1 { }	{ }
+BERTMODECOPY		festbot.h	/^#define BERTMODECOPY   3/ ;" macro 1 { }	{ }
+BERTMODECOPYIF		festbot.h	/^#define BERTMODECOPYIF 2/ ;" macro 1 { copyinbackend createlinkinbackend createnewdocumentinbackend createnewversioninbackend deletefrombackend finddocscontaininginbackend inserttextinbackend rearrangeinbackend retrievedocvspanset retrievefrombackend showrelationof2versionsinbackend }	{ }
+BERTMODEONLY		festbot.h	/^#define BERTMODEONLY   1/ ;" macro 1 { }	{ }
+BIGVIEW		festbot.h	/^#define BIGVIEW 2000000/ ;" macro 1 { findnextendset sendspan }	{ }
+BIT		festbot.h	/^#define BIT/ ;" macro 1 { }	{ }
+CHANGEDOCUMENT		feminreq.h	/^#define CHANGEDOCUMENT          119/ ;" macro 1 { }	{ }
+CHANGEFROMSET		feminreq.h	/^#define CHANGEFROMSET           113/ ;" macro 1 { }	{ }
+CHANGETOSET		feminreq.h	/^#define CHANGETOSET             114/ ;" macro 1 { }	{ }
+CHARSPANTYPE		festbot.h	/^#define CHARSPANTYPE 1/ ;" macro 1 { appendvmtypethingtolist charspanalloc charspanfree charspansarecontiguous dumpvmthing insertvmtypethinginlist issomeoneschild removevmtypethingfromlist switch }	{ }
+CLEARENDSETS		feminreq.h	/^#define CLEARENDSETS            115/ ;" macro 1 { }	{ }
+CLOSE		requests.h	/^#define CLOSE    36/ ;" macro 1 { openinbackend sendclose }	{ }
+COMPARE		feminreq.h	/^#define COMPARE                 221/ ;" macro 1 { }	{ }
+COPY		requests.h	/^#define COPY 2/ ;" macro 1 { copyinbackend sendcopy }	{ }
+COPYFUNCTION		feminreq.h	/^#define COPYFUNCTION            110/ ;" macro 1 { }	{ }
+CORRESPONDENCETYPE		festbot.h	/^#define CORRESPONDENCETYPE 10/ ;" macro 1 { dumpvmthing }	{ }
+CREATEDOCUMENT		feminreq.h	/^#define CREATEDOCUMENT          111/ ;" macro 1 { }	{ }
+CREATEFOOTNOTE		feminreq.h	/^#define CREATEFOOTNOTE          116/ ;" macro 1 { }	{ }
+CREATELINK		requests.h	/^#define CREATELINK 27/ ;" macro 1 { createlinkinbackend sendcreatelink }	{ }
+CREATENEWDOCUMENT		requests.h	/^#define CREATENEWDOCUMENT 11/ ;" macro 1 { createnewdocumentinbackend sendcreatenewdocument }	{ }
+CREATENEWVERSION		requests.h	/^#define CREATENEWVERSION 13/ ;" macro 1 { createnewversioninbackend sendcreatenewversion }	{ }
+CREATEVERSION		feminreq.h	/^#define CREATEVERSION           112/ ;" macro 1 { }	{ }
+CURRENTMAXIMUMNUMBEROFNODES		festbot.h	/^#define CURRENTMAXIMUMNUMBEROFNODES     5/ ;" macro 1 { sendnorestriction }	{ }
+CURSORPOSITION		feminreq.h	/^#define CURSORPOSITION          100/ ;" macro 1 { }	{ }
+DEFAULTLINK		festbot.h	/^#define DEFAULTLINK   JUMPLINK/ ;" macro 1 { findlinktype }	{ JUMPLINK }
+DELETEBLOCK		feminreq.h	/^#define DELETEBLOCK             108/ ;" macro 1 { }	{ }
+DELETECHARACTER		feminreq.h	/^#define DELETECHARACTER         109/ ;" macro 1 { }	{ }
+DELETECUTS		feminreq.h	/^#define DELETECUTS              118/ ;" macro 1 { }	{ }
+DELETEVSPAN		requests.h	/^#define DELETEVSPAN 12/ ;" macro 1 { deletefrombackend senddeletevspan }	{ }
+DISKEXIT		requests.h	/^#define DISKEXIT 16/ ;" macro 1 { senddiskexit }	{ }
+DOCRANGETYPE		festbot.h	/^#define DOCRANGETYPE 5/ ;" macro 1 { docrangealloc dumpvmthing switch }	{ }
+DOCUMENTTYPE		festbot.h	/^#define DOCUMENTTYPE 2/ ;" macro 1 { appendvmtypethingtolist documentalloc documentfree dumpvmthing finddocumentinvmlist insertvmtypethinginlist isreapable issomeoneschild removevmtypethingfromlist switch }	{ }
+ENTERPARALLELTEXTFACE		feminreq.h	/^#define ENTERPARALLELTEXTFACE   120/ ;" macro 1 { }	{ }
+EQUAL		festbot.h	/^#define EQUAL   0/ ;" macro 1 { abscmp abscmpsmall finddocumentinvmlist findwheretoputdocumentinvmlist smalltumblercmp smalltumblereq spanvsacmp speccmp tumblercmp tumblereq }	{ }
+EXITNORMALLY		feminreq.h	/^#define EXITNORMALLY             98/ ;" macro 1 { }	{ }
+FALSE		alloc.c	/^#define FALSE 0/ ;" macro 1 { charspansarecontiguous documentalloc dotaketumbler dumpreaper dumpvmlist eatchar findcommonspans inittask intersectspans isreapable issomeoneschild negotiateprotocol openenough pullblock pullc retrievetextsize takeaddress takeaddressset takecorrespondenceset takenum takenumber takeprotocol takeretrieveendsets takespan takespanset takespecset taketdigit taketext takevstuff }	{ }
+FETYPEALIASESDEFINED		fetypealias.h	/^#define FETYPEALIASESDEFINED/ ;" macro 1 { }	{ }
+FINDDOCSCONTAINING		requests.h	/^#define FINDDOCSCONTAINING 22/ ;" macro 1 { finddocscontaininginbackend sendfinddocscontaining }	{ }
+FINDLINKSFROMTOTHREE		requests.h	/^#define FINDLINKSFROMTOTHREE 30/ ;" macro 1 { retrievelinksetfrombackend sendfindlinksfromtothree }	{ }
+FOLLOWLINK		requests.h	/^#define FOLLOWLINK 18/ ;" macro 1 { retrieveendsetfrombackend sendfollowlink }	{ }
+FOOTNOTELINK		festbot.h	/^#define FOOTNOTELINK	 2/ ;" macro 1 { findlinktype }	{ }
+FROM		festbot.h	/^#define FROM	1		\/* link endsets *\// ;" macro 1 { }	{ }
+GREATER		festbot.h	/^#define GREATER 1/ ;" macro 1 { abscmp abscmpsmall findspecspaninfromandtosetswithlowestvsa findwheretoputdocumentinvmlist smalltumblercmp spanvsacmp tumbleradd tumblercmp tumblermax }	{ }
+HEADER		alloc.c	/^typedef union header HEADER;/ ;" typedef 1 { checkalloc falloc ffree statusofalloc weresurethisisourmorecore }	{ }
+INSERT		requests.h	/^#define INSERT 0/ ;" macro 1 { inserttextinbackend sendinsert }	{ }
+INSERTANDDELETECHAR		feminreq.h	/^#define INSERTANDDELETECHAR     105/ ;" macro 1 { }	{ }
+INTLEN		festbot.h	/^#define INTLEN 7/ ;" macro 1 { }	{ }
+JUMPLINK		festbot.h	/^#define JUMPLINK	 0/ ;" macro 1 { DEFAULTLINK PLAINDOCUMENT findlinktype }	{ }
+LESS		festbot.h	/^#define LESS   -1/ ;" macro 1 { abscmp abscmpsmall findspecspaninfromandtosetswithlowestvsa smalltumblercmp spanvsacmp tumblercmp tumblermin }	{ }
+LIMITED		vm.c	/^#define LIMITED/ ;" macro 1 { }	{ }
+LINKCONTENTTYPE		festbot.h	/^#define LINKCONTENTTYPE 9/ ;" macro 1 { dumpvmthing switch }	{ }
+LINKGROUPTYPE		festbot.h	/^#define LINKGROUPTYPE 8/ ;" macro 1 { dumpvmthing switch }	{ }
+LINKRESTRICTIONTYPE		festbot.h	/^#define LINKRESTRICTIONTYPE 6/ ;" macro 1 { dumpvmthing switch }	{ }
+LINT_ARGS		feconfig.h	/^#define LINT_ARGS/ ;" macro 1 { }	{ }
+MAKECUT		feminreq.h	/^#define MAKECUT                 117/ ;" macro 1 { }	{ }
+MAKELINK2		feminreq.h	/^#define MAKELINK2               106/ ;" macro 1 { }	{ }
+MARGINALNOTELINK		festbot.h	/^#define MARGINALNOTELINK 3/ ;" macro 1 { findlinktype }	{ }
+MAXCUTS		festbot.h	/^#define MAXCUTS  4/ ;" macro 1 { rearrangetext }	{ }
+MAXNAMLEN		feconfig.h	/^#define MAXNAMLEN 14/ ;" macro 1 { }	{ }
+NAMELEN		festbot.h	/^#define NAMELEN 103      \/* size of filename *\// ;" macro 1 { }	{ }
+NEW		vm.c	/^#define NEW 0/ ;" macro 1 { rejuvinate }	{ }
+NLINKTYPES		festbot.h	/^#define NLINKTYPES	4	\/* link types *\// ;" macro 1 { }	{ }
+NOBERTREQUIRED		festbot.h	/^#define NOBERTREQUIRED 0/ ;" macro 1 { }	{ }
+NPLACES		festbot.h	/^#define NPLACES 12       \/* places in mantissa of / ;" macro 1 { absadd abscmp dumptumbler findlastplace hashoftumbler nstories sendtumbler strongsub taketumbler tumblerincrement tumblerjustify tumblertruncate weaksub }	{ }
+NUMBEROFBERTTABLE		bert.c	/^#define NUMBEROFBERTTABLE 1327/ ;" macro 1 { hashoftumbler }	{ }
+OLD		vm.c	/^#define OLD 1/ ;" macro 1 { isreapable }	{ }
+OLDPROTO		sendbot.c	/^#define OLDPROTO/ ;" macro 1 { }	{ }
+ONMYLEFTBORDER		festbot.h	/^#define ONMYLEFTBORDER -1/ ;" macro 1 { speccmp }	{ }
+ONMYRIGHTBORDER		festbot.h	/^#define ONMYRIGHTBORDER 1/ ;" macro 1 { speccmp }	{ }
+OPEN		requests.h	/^#define OPEN     35/ ;" macro 1 { openinbackend sendopen }	{ }
+PARALELTEXTFACE		feminreq.h	/^#define PARALELTEXTFACE         222/ ;" macro 1 { }	{ }
+PLAINDOCUMENT		festbot.h	/^#define PLAINDOCUMENT JUMPLINK  \/* similiar behavi/ ;" macro 1 { }	{ JUMPLINK }
+PROTOLEN		festbot.h	/^#define PROTOLEN 2	\/* max length of FeBe protocol / ;" macro 1 { takeprotocol }	{ }
+QUOTELINK		festbot.h	/^#define QUOTELINK	 1/ ;" macro 1 { findlinktype }	{ }
+READBERT		festbot.h	/^#define READBERT       1/ ;" macro 1 { createnewdocumentinbackend createnewversioninbackend finddocscontaininginbackend openenough retrievedocvspanset retrievefrombackend showrelationof2versionsinbackend }	{ }
+REARRANGE		requests.h	/^#define REARRANGE 3/ ;" macro 1 { rearrangeinbackend sendrearrange }	{ }
+REDRAWCMD		feminreq.h	/^#define REDRAWCMD         	224/ ;" macro 1 { }	{ }
+RETRIEVEDOCVSPAN		requests.h	/^#define RETRIEVEDOCVSPAN 14/ ;" macro 1 { sendretrievedocvspan }	{ }
+RETRIEVEDOCVSPANSET		requests.h	/^#define RETRIEVEDOCVSPANSET 1/ ;" macro 1 { retrievedocvspanset sendretrievedocvspanset }	{ }
+RETRIEVEENDSETS		requests.h	/^#define RETRIEVEENDSETS 28/ ;" macro 1 { retrieveendsetswithinspecsetfrombackend sendretrieveendsets }	{ }
+RETRIEVELEN		minxface.c	/^#define RETRIEVELEN	1500/ ;" macro 1 { retrievefrombackend }	{ }
+RETRIEVEV		requests.h	/^#define RETRIEVEV 5/ ;" macro 1 { retrievefrombackend sendretrievev }	{ }
+RETURNFROMSTACK		feminreq.h	/^#define RETURNFROMSTACK         103/ ;" macro 1 { }	{ }
+SHORT		fetypealias.h	/^typedef SHORT\/*yes really int*\/ med; \/* for things/ ;" typedef 1 { metachar }	{ }
+SHOWLINKS		feminreq.h	/^#define SHOWLINKS               104/ ;" macro 1 { }	{ }
+SHOWRELATIONOF2VERSIONS		requests.h	/^#define SHOWRELATIONOF2VERSIONS 10/ ;" macro 1 { sendshowrelationof2versions showrelationof2versionsinbackend }	{ }
+SMALLNPLACES		festbot.h	/^#define SMALLNPLACES 2/ ;" macro 1 { abscmpsmall dumpsmalltumbler makedocvsa sendsmalltumbler takesmalltumbler }	{ }
+SPANFLAG		fetake.c	/^#define SPANFLAG 's'/ ;" macro 1 { sendnorestriction takespecset }	{ }
+SPANTYPE		festbot.h	/^#define SPANTYPE 3/ ;" macro 1 { appendvmtypethingtolist dumpvmthing insertvmtypethinginlist isreapable issomeoneschild removevmtypethingfromlist spanalloc spanfree switch takespanset }	{ }
+SPECTYPE		festbot.h	/^#define SPECTYPE 4/ ;" macro 1 { appendvmtypethingtolist dumpvmthing insertvmtypethinginlist isreapable issomeoneschild removevmtypethingfromlist specalloc specfree switch takespecset }	{ }
+TERMCAP		feconfig.h	/^#define TERMCAP/ ;" macro 1 { }	{ }
+TEXTFLAG		fetake.c	/^#define TEXTFLAG 't'/ ;" macro 1 { sendtext takevstuff }	{ }
+THREE		festbot.h	/^#define THREE	3/ ;" macro 1 { }	{ }
+THRUME		festbot.h	/^#define THRUME 0/ ;" macro 1 { speccmp }	{ }
+TO		festbot.h	/^#define TO	2/ ;" macro 1 { }	{ }
+TOMYLEFT		festbot.h	/^#define TOMYLEFT -2/ ;" macro 1 { speccmp }	{ }
+TOMYRIGHT		festbot.h	/^#define TOMYRIGHT 2/ ;" macro 1 { speccmp }	{ }
+TRUE		alloc.c	/^#define TRUE 1/ ;" macro 1 { dumpreaper dumpvmlist eatchar findcommonspans fixvm intersectspans negotiateprotocol openenough pushc retrievedocendsets retrievetextsize statusofalloc takeaddress takeaddressset takecorrespondenceset takenum takenumber takeprotocol takespan takespanset takespecset taketext takevstuff validallocthing validallocthinge }	{ }
+TUMBLERITEMTYPE		festbot.h	/^#define TUMBLERITEMTYPE 7/ ;" macro 1 { dumpvmthing tumbleritemalloc tumbleritemfree }	{ }
+TUMDELIM		fetake.c	/^#define TUMDELIM '.'/ ;" macro 1 { dosendtumbler taketdigit }	{ }
+UNIX		feconfig.h	/^#define UNIX/ ;" macro 1 { }	{ }
+UNIX_BSD4_2		feconfig.h	/^#define UNIX_BSD4_2 / ;" macro 1 { }	{ }
+UNIX_S5		feconfig.h	/^#define UNIX_S5 / ;" macro 1 { }	{ }
+VARIABLEDIR		feconfig.h	/^#define VARIABLEDIR/ ;" macro 1 { }	{ }
+VMSTRLEN		minxface.c	/^#define VMSTRLEN	80/ ;" macro 1 { }	{ }
+VSPECFLAG		fetake.c	/^#define VSPECFLAG 'v'/ ;" macro 1 { sendspec takespecset }	{ }
+WEIRDOPTIONSCMD		feminreq.h	/^#define WEIRDOPTIONSCMD         223/ ;" macro 1 { }	{ }
+WINDOWCONTROL		feminreq.h	/^#define WINDOWCONTROL           102/ ;" macro 1 { }	{ }
+WORDELIM		fetake.c	/^#define WORDELIM '~'/ ;" macro 1 { dosendtumbler dotaketumbler sendnorestriction sendnumber sendprotocol sendspec sendtext takenumber takeprotocol takespecset }	{ }
+WRITEBERT		festbot.h	/^#define WRITEBERT      2/ ;" macro 1 { copyinbackend createlinkinbackend deletefrombackend inserttextinbackend openenough rearrangeinbackend }	{ }
+XACCOUNT		requests.h	/^#define XACCOUNT 34/ ;" macro 1 { sendaccount }	{ }
+XFOLLOWLINK		feminreq.h	/^#define XFOLLOWLINK             101/ ;" macro 1 { }	{ }
+XREARRANGE		feminreq.h	/^#define XREARRANGE              107/ ;" macro 1 { }	{ }
+absadd		tumadd.c	/^absadd (aptr, bptr, cptr)/ ;" function 48 { tumbleradd }	{ NPLACES elif mantissa med movetumbler tumbler tumblerclear zdumptumbler }
+abscmp		tumtest.c	/^abscmp (aptr,bptr)/ ;" function 20 { tumbleradd tumblercmp }	{ EQUAL GREATER LESS NPLACES mantissa med tdigit }
+abscmpsmall		tumtest.c	/^abscmpsmall (aptr,bptr)/ ;" function 20 { smalltumblercmp }	{ EQUAL GREATER LESS SMALLNPLACES med tdigit }
+addtoopen		bert.c	/^addtoopen(tp,connection,created,type)/ ;" function 23 { possiblyopen }	{ bertentry berttable conscell hashoftumbler tumblercopy }
+adjustendsetlist		vmedit.c	/^adjustendsetlist (specptr, specset)/ ;" function 23 { fixendsetvm }	{ spantype spectype splitspan tumblereq }
+alloccount		alloc.c	/^  static nat alloccount=0;/ ;" global 1 { falloc }	{ }
+allocp		alloc.c	/^static HEADER *allocp = NULL;/ ;" global 1 { falloc ffree weresurethisisourmorecore }	{ }
+appendvmtypethingtolist		list.c	/^appendvmtypethingtolist (position, vmthing)/ ;" function 45 { newcharspaninvm putdocumentinvm puttextinvm specspanalloc }	{ CHARSPANTYPE DOCUMENTTYPE SPANTYPE SPECTYPE charspantype documenttype spantype vmthingtype }
+base		alloc.c	/^static HEADER base;/ ;" global 1 { falloc statusofalloc }	{ }
+beheadtumbler		tumble.c	/^beheadtumbler (aptr, bptr)/ ;" function 12 { }	{ mantissa movetumbler tumbler tumblerjustify }
+bertentry		bert.c	/^typedef struct {/ ;" typedef 7 { addtoopen checkforopen incrementopen removefromopen }	{ }
+berttable		bert.c	/^static conscell *berttable[NUMBEROFBERTTABLE];/ ;" global 1 { addtoopen checkforopen incrementopen removefromopen }	{ }
+big		fetypealias.h	/^typedef long big; \/*for random things that want to/ ;" typedef 1 { }	{ }
+bool		fetypealias.h	/^#define bool unsigned \/* #$%! defined in sunwindow/ ;" macro 1 { deletefrombackend documentfree dotaketumbler dumpreaper dumpvmlist findcommonspans findcomonspecset grimlyreapvm isreapable issomeoneschild retrievedocendsets smalltumblercmp spanfree specfree takeaddress takeaddressset takefollowlink takenum takenumber takeretrieveendsets takesmalltumbler takespan takespanset takespec takespecset taketext taketumbler takevstuff tumbleritemfree }	{ }
+buildspec		misc.c	/^buildspec(docidptr,start,len,specsetptr)/ ;" function 32 { deletetext inserttext }	{ smalltumblerclear spanalloc spantype specalloc spectype tumblercopy tumblereq }
+charspanalloc		freealloc.c	/^charspanalloc (numberofcharsinspan)  \/* number of / ;" function 15 { newcharspaninvm puttextinvm }	{ CHARSPANTYPE charspanslyingaround charspantype ealloc memclear smalltumbler }
+charspanfree		freealloc.c	/^charspanfree (charspanptr)/ ;" function 18 { documentfree switch }	{ CHARSPANTYPE charspanslyingaround charspantype ffree gerror validallocthing }
+charspansarecontiguous		vmlist.c	/^charspansarecontiguous (aptr, bptr)/ ;" function 7 { makecharspanintotext }	{ CHARSPANTYPE FALSE }
+charspanslyingaround		freealloc.c	/^nat charspanslyingaround = 0;/ ;" global 1 { charspanalloc charspanfree }	{ }
+charspantype		festbot.h	/^typedef struct structcharspan {/ ;" typedef 9 { appendvmtypethingtolist charspanalloc charspanfree createnewdocumentinbackend deletetextfromdocumentinvm dumpvmthing findcharspaninvm fixvm insertcharactersbeforespecifiedposition insertvmtypethinginlist makecharspanintotext newcharspaninvm puttextinvm removevmtypethingfromlist retrievefrombackend retrievefromvm sendtextset switch takevstuff }	{ }
+checkalloc		alloc.c	/^checkalloc(c)/ ;" function 20 { falloc findspecspaninfromandtosetswithlowestvsa removefromvmlist statusofalloc }	{ HEADER nat }
+checkforopen		bert.c	/^checkforopen(tp\/*,type*\/)/ ;" function 15 { openinbackend possiblyopen }	{ bertentry berttable conscell hashoftumbler tumblereq }
+checkstack		alloc.c	/^checkstack()/ ;" function 6 { }	{ }
+cleardocid		misc.c	/^cleardocid (docidptr)/ ;" function 5 { docrangealloc documentalloc specalloc }	{ tumblerclear }
+clearvdisplacement		misc.c	/^clearvdisplacement (displacementptr)/ ;" function 5 { spanalloc }	{ smalltumblerclear }
+conscell		bert.c	/^typedef struct {/ ;" typedef 4 { addtoopen checkforopen incrementopen removefromopen }	{ }
+copyinbackend		minxface.c	/^copyinbackend (taskptr, docidptr, vsaptr, specptr)/ ;" function 18 { }	{ BERTMODECOPYIF COPY WRITEBERT inittask possiblyopen sendcopy takenumber }
+copyspanset		list.c	/^  void	/ ;" function 19 { copyspecset splitspan }	{ movesmalltumbler spanalloc spantype }
+copyspecset		list.c	/^copyspecset (specptr, newptrptr)/ ;" function 22 { findendsetsinspec findlinkendset findlinkspecset findspecspaninfromandtosetswithlowestvsa grabspec grabspecwithouttext }	{ copyspanset movetumbler spantype specalloc spectype }
+copytumbleritemset		list.c	/^  void	/ ;" function 17 { finddocumentsincluding findlinks }	{ movetumbler tumbleritemalloc tumbleritemtype }
+correspondencetype		festbot.h	/^typedef struct structcorrespondence {/ ;" typedef 10 { dumpvmthing freecorrespondencelist takecorrespondenceset }	{ }
+createlinkinbackend		minxface.c	/^createlinkinbackend (taskptr, docid, fromset, tose/ ;" function 19 { makenewlink }	{ BERTMODECOPYIF CREATELINK WRITEBERT inittask possiblyopen sendcreatelink takecreatelink takenumber }
+createnewdocument		felibtop.c	/^createnewdocument(newdocid)/ ;" function 8 { }	{ createnewdocumentinbackend putdocumentinvm tasktype }
+createnewdocumentinbackend		minxface.c	/^createnewdocumentinbackend (taskptr, docidptr)/ ;" function 17 { createnewdocument }	{ BERTMODECOPYIF CREATENEWDOCUMENT READBERT charspantype inittask possiblyopen sendcreatenewdocument smalltumbler takecreatenewdocument takenumber }
+createnewversioninbackend		minxface.c	/^createnewversioninbackend (taskptr, olddocidptr, n/ ;" function 15 { makenewversion }	{ BERTMODECOPYIF CREATENEWVERSION READBERT inittask possiblyopen sendcreatenewversion takecreatenewversion takenumber }
+cutseqtype		festbot.h	/^typedef struct structcutseq {/ ;" typedef 4 { rearrangetext }	{ }
+cutsequence		festbot.h	/^cutseqtype cutsequence ;/ ;" global 1 { }	{ }
+debug		fest.h	/^int debug;/ ;" global 1 { }	{ }
+deletefrombackend		minxface.c	/^deletefrombackend (taskptr, docidptr, spanptr)/ ;" function 19 { deletespecfrombe }	{ BERTMODECOPYIF DELETEVSPAN WRITEBERT bool inittask possiblyopen senddeletevspan takenumber }
+deletespecfrombe		grabspec.c	/^deletespecfrombe (specptr)/ ;" function 6 { deletetext }	{ deletefrombackend tasktype }
+deletetext		felibtop.c	/^deletetext(docidptr,position,nchars,fromset,toset)/ ;" function 13 { }	{ buildspec deletespecfrombe fixendsetvm fixvm specfree spectype }
+deletetextfromdocumentinvm		vmedit.c	/^deletetextfromdocumentinvm (charspanptr, spanptr, / ;" function 38 { fixvm }	{ charspantype ffree movmem removefromvmlist removevmtypethingfromlist vmthingtype }
+diff		misc.c	/^diff (a,b)/ ;" function 5 { }	{ max min }
+displaymaskfree		freealloc.c	/^displaymaskfree (displaymaskptr)/ ;" function 5 { }	{ ffree }
+displine		dump.c	/^med displine = 58;/ ;" global 1 { }	{ }
+docrangealloc		freealloc.c	/^docrangealloc ()/ ;" function 11 { }	{ DOCRANGETYPE cleardocid docrangetype ealloc nat }
+docrangefree		freealloc.c	/^docrangefree (docrange)/ ;" function 5 { }	{ ffree }
+docrangetype		festbot.h	/^typedef struct structdocrange {/ ;" typedef 8 { docrangealloc senddocrangeset }	{ }
+documentalloc		freealloc.c	/^documentalloc ()/ ;" function 15 { putdocumentinvm }	{ DOCUMENTTYPE FALSE cleardocid documentslyingaround documenttype ealloc nat }
+documentfree		freealloc.c	/^documentfree (documentptr)/ ;" function 15 { putdocumentinvm switch }	{ DOCUMENTTYPE bool charspanfree documentslyingaround ffree gerror validallocthing }
+documentslyingaround		freealloc.c	/^nat documentslyingaround = 0;/ ;" global 1 { documentalloc documentfree }	{ }
+documenttype		festbot.h	/^typedef struct structdocument {/ ;" typedef 11 { appendvmtypethingtolist documentalloc dumpvm dumpvmthing findcharspaninvm finddocumentinvmlist finddocumenttoputtextin findwheretoputdocumentinvmlist grabspec insertvmtypethinginlist newcharspaninvm putdocumentinvm puttextinvm removevmtypethingfromlist switch }	{ }
+dosendtumbler		sendbot.c	/^dosendtumbler (outfile, tumblerptr, size)/ ;" function 19 { sendsmalltumbler sendtumbler }	{ TUMDELIM WORDELIM feputc mantissa med sendnum tdigit }
+dotaketumbler		fetake.c	/^dotaketumbler (taskptr, tumblerptr, size)/ ;" function 21 { takesmalltumbler taketumbler }	{ FALSE WORDELIM bool error mantissa med pullc takenum taketdigit }
+dumpcharspan		dump.c	/^dumpcharspan (charspanptr)/ ;" function 14 { dumpcharspanset dumpvmthing }	{ dumpsmalltumbler }
+dumpcharspanset		dump.c	/^dumpcharspanset (charspanptr)/ ;" function 12 { dumpdocument }	{ dumpcharspan }
+dumpcorrespondence		dump.c	/^dumpcorrespondence(correspondenceptr)/ ;" function 12 { dumpcorrespondenceset dumpvmthing }	{ dumptumbler }
+dumpcorrespondenceset		dump.c	/^dumpcorrespondenceset(correspondenceset)/ ;" function 12 { }	{ dumpcorrespondence }
+dumpcutseq		dump.c	/^dumpcutseq(cuts)/ ;" function 8 { }	{ dumpsmalltumbler med }
+dumpdocument		dump.c	/^dumpdocument (documentptr)/ ;" function 8 { dumpvm dumpvmthing }	{ dumpcharspanset dumptumbler }
+dumpreaper		vmlist.c	/^dumpreaper ()/ ;" function 10 { removefromvmlist vmfree }	{ FALSE TRUE bool dumpvmthing flag grimreaper vmthingtype }
+dumpsmalltumbler		dump.c	/^dumpsmalltumbler(tumblerptr)/ ;" function 17 { dumpcharspan dumpcutseq dumpspan }	{ SMALLNPLACES gerror med }
+dumpspan		dump.c	/^dumpspan (spanptr)/ ;" function 7 { dumpspanset }	{ dumpsmalltumbler }
+dumpspanset		dump.c	/^dumpspanset (spanptr)/ ;" function 12 { dumpspec dumpvmthing }	{ dumpspan }
+dumpspec		dump.c	/^dumpspec (specptr)/ ;" function 8 { dumpspecset }	{ dumpspanset dumptumbler }
+dumpspecset		dump.c	/^  void / ;" function 12 { dumpvmthing }	{ dumpspec }
+dumptumbler		dump.c	/^dumptumbler(tumblerptr)/ ;" function 33 { dumpcorrespondence dumpdocument dumpspec dumptumbleritem retrieveendsetfrombackend vmfree }	{ NPLACES mantissa }
+dumptumbleritem		dump.c	/^dumptumbleritem(tumbleritemptr)/ ;" function 6 { dumptumbleritemset dumpvmthing }	{ dumptumbler }
+dumptumbleritemset		dump.c	/^  void / ;" function 11 { }	{ dumptumbleritem }
+dumpvm		dump.c	/^dumpvm()/ ;" function 7 { }	{ documenttype dumpdocument vmbaseptr vmthingtype }
+dumpvmlist		dump.c	/^dumpvmlist()/ ;" function 13 { }	{ FALSE TRUE bool dumpvmthing vmbaseptr vmthingtype }
+dumpvmthing		dump.c	/^dumpvmthing (thingptr)/ ;" function 49 { dumpreaper dumpvmlist }	{ CHARSPANTYPE CORRESPONDENCETYPE DOCRANGETYPE DOCUMENTTYPE LINKCONTENTTYPE LINKGROUPTYPE LINKRESTRICTIONTYPE SPANTYPE SPECTYPE TUMBLERITEMTYPE charspantype correspondencetype documenttype dumpcharspan dumpcorrespondence dumpdocument dumpspanset dumpspecset dumptumbleritem gerror spantype spectype tumbleritemtype }
+ealloc		freealloc.c	/^ealloc(i)/ ;" function 14 { charspanalloc docrangealloc documentalloc fixvmforrearrange inserttextincharspanindocument spanalloc specalloc talloc tumbleralloc tumbleritemalloc viewalloc }	{ falloc grimlyreapvm loop nat }
+eatchar		fetake.c	/^eatchar (taskptr, c)/ ;" function 13 { takeprotocol }	{ FALSE TRUE pullc pushc }
+elif		festbot.h	/^#define elif    else if/ ;" macro 1 { absadd putdocumentinvm puttextinvm removevmtypethingfromlist tumbleradd tumblersub }	{ }
+error		sendbot.c	/^error (taskptr, string)/ ;" function 6 { dotaketumbler pushc }	{ feputstring }
+exitasgracefullyaspossible		festbot.h	/^#define exitasgracefullyaspossible() fflush(stdout/ ;" macro 1 { gerror }	{ }
+falloc		alloc.c	/^falloc(nbytes)/ ;" function 35 { ealloc takecorrespondenceset }	{ HEADER alloccount allocp base checkalloc nat weresurethisisourmorecore }
+fegetc		inittask.c	/^ nat / ;" function 22 { pullblock pullc }	{ gerror nat }
+feputc		sendbot.c	/^feputc (c, fd)/ ;" function 14 { dosendtumbler feputstring sendnorestriction sendnum sendnumber sendprotocol sendspec sendtext }	{ }
+feputstring		sendbot.c	/^feputstring (string, fd)/ ;" function 7 { error prompt }	{ feputc }
+ffree		alloc.c	/^ffree(ap)/ ;" function 32 { charspanfree deletetextfromdocumentinvm displaymaskfree docrangefree documentfree fixvmforrearrange freecorrespondencelist inserttextincharspanindocument spanfree specfree switch tfree tumblerfree tumbleritemfree weresurethisisourmorecore }	{ HEADER allocp flag flag1 gerror memclear validallocthinge }
+findcharspaninvm		vm.c	/^findcharspaninvm (specptr)/ ;" function 41 { fixvm retrievefromvm }	{ charspantype documenttype finddocumentinvmlist rejuvinate spantype vmthingtype }
+findcommonspans		misc.c	/^findcommonspans (taskptr, spanptr, spanset, spanpt/ ;" function 19 { findcomonspecset }	{ FALSE TRUE bool intersectspans spantype }
+findcomonspecset		misc.c	/^findcomonspecset (taskptr, specptr, specset, specp/ ;" function 21 { }	{ bool findcommonspans movetumbler spectype taskalloc tumblereq }
+finddocscontaininginbackend		minxface.c	/^finddocscontaininginbackend (taskptr, specset, doc/ ;" function 21 { finddocumentsincluding }	{ BERTMODECOPYIF FINDDOCSCONTAINING READBERT gerror inittask possiblyopenfromspec sendfinddocscontaining takefinddocscontaining takenumber }
+finddocumentinvmlist		vm.c	/^finddocumentinvmlist (docidtofind)/ ;" function 14 { findcharspaninvm finddocumenttoputtextin grabspec newcharspaninvm }	{ DOCUMENTTYPE EQUAL documenttype rejuvinate tumblercmp vmbaseptr vmthingtype }
+finddocumentsincluding		felibtop.c	/^finddocumentsincluding(specptr,docsetptr)/ ;" function 12 { }	{ copytumbleritemset finddocscontaininginbackend spectype tasktype tfree tumbleritemtype }
+finddocumenttoputtextin		vm.c	/^finddocumenttoputtextin (newdocid)/ ;" function 10 { puttextinvm }	{ documenttype finddocumentinvmlist putdocumentinvm }
+findendsetsinspec		felibtop.c	/^findendsetsinspec(specptr,fromsetptr,tosetptr)/ ;" function 11 { }	{ copyspecset retrievedocendsets spectype tasktype tfree }
+findlastplace		misc.c	/^findlastplace (tumblerptr)/ ;" function 8 { makedocvsa }	{ NPLACES mantissa med }
+findlinkendset		felibtop.c	/^findlinkendset(linkidptr,whichend,specsetptr)/ ;" function 12 { }	{ copyspecset retrieveendsetfrombackend spectype tasktype tfree }
+findlinks		felibtop.c	/^findlinks(specptr,whichend,linksetptr)/ ;" function 12 { }	{ copytumbleritemset retrievelinksetfrombackend tasktype tfree tumbleritemtype }
+findlinkspecset		findlinks.c	/^findlinkspecset (linkidptr, whichend, endsetptr)/ ;" function 12 { }	{ copyspecset retrieveendsetfrombackend spectype tasktype tfree }
+findlinktype		findlinks.c	/^findlinktype (linkidptr, linktypeptr)/ ;" function 32 { }	{ DEFAULTLINK FOOTNOTELINK JUMPLINK MARGINALNOTELINK QUOTELINK footnotelinktype jumplinktype linktypedoc marginallinktype quotelinktype retrieveendsetfrombackend smalltumbler smalltumblereq spectype tasktype tfree tumblereq }
+findnextendset		findlinks.c	/^findnextendset (taskptr, specptr, endsetptrptr)/ ;" function 17 { findnextendsetafterspec }	{ BIGVIEW findspecspaninfromandtosetswithlowestvsa retrieveendsetswithinspecsetfrombackend specfree spectype }
+findnextendsetafterspec		findlinks.c	/^findnextendsetafterspec (taskptr, specptr, endsetp/ ;" function 12 { }	{ findnextendset }
+findspecspaninfromandtosetswithlowestvsa		findlinks.c	/^findspecspaninfromandtosetswithlowestvsa (taskptr,/ ;" function 39 { findnextendset }	{ GREATER LESS checkalloc copyspecset gerror spantype spanvsacmp spectype tumblercmp }
+findtextinspec		felibtop.c	/^findtextinspec(specptr,stringptr)/ ;" function 12 { }	{ grabspec ncharsinspec }
+findwheretoputdocumentinvmlist		vm.c	/^findwheretoputdocumentinvmlist (document)/ ;" function 16 { putdocumentinvm }	{ EQUAL GREATER documenttype med tumblercmp vmbaseptr }
+fixendsetvm		vmedit.c	/^fixendsetvm (specptr, nchars, fromspecset, tospecs/ ;" function 15 { deletetext fixvmforrearrange inserttext }	{ adjustendsetlist movesmalltumbler movetumbler specfree specspanalloc spectype }
+fixvm		vmedit.c	/^fixvm (specptr,string,nchars)/ ;" function 29 { deletetext fixvmforrearrange inserttext }	{ TRUE charspantype deletetextfromdocumentinvm findcharspaninvm fixvsasforrestofcharspansindocument gerror inserttextincharspanindocument newcharspaninvm }
+fixvmforrearrange		vmedit.c	/^fixvmforrearrange(docid,fromspecset,tospecset,cuts/ ;" function 30 { rearrangetext }	{ ealloc ffree fixendsetvm fixvm grabspec movesmalltumbler specfree specspanalloc spectype }
+fixvsasforrestofcharspansindocument		vmedit.c	/^fixvsasforrestofcharspansindocument (charspanptr, / ;" function 8 { fixvm }	{ }
+flag		alloc.c	/^  static bool flag = 0,flag1 = 0;/ ;" global 1 { dumpreaper ffree statusofalloc takenum takenumber weresurethisisourmorecore }	{ }
+flag1		alloc.c	/^  static bool flag = 0,flag1 = 0;/ ;" global 1 { ffree weresurethisisourmorecore }	{ }
+footnotelinktype		findlinks.c	/^smalltumbler footnotelinktype =      {0,0, 2,3}; \// ;" global 1 { findlinktype }	{ }
+freecorrespondencelist		freealloc.c	/^freecorrespondencelist(correspondencelist)/ ;" function 9 { }	{ correspondencetype ffree }
+functionthatreturnsvoid		festbot.h	/^typedef void  functionthatreturnsvoid();/ ;" typedef 1 { }	{ }
+gerror		misc.c	/^gerror(message)/ ;" function 10 { charspanfree documentfree dumpsmalltumbler dumpvmthing fegetc ffree finddocscontaininginbackend findspecspaninfromandtosetswithlowestvsa fixvm grabspec grabspecwithouttext grimlyreapvm inserttextincharspanindocument movmem nthiteminlist openinbackend pullblock pullc puttextinvm retrieveendsetfrombackend retrievelinksetfrombackend retrievetextsize sendcreatelink spanfree specfree specspanalloc takeretrieveendsets tumblerincrement tumbleritemfree }	{ exitasgracefullyaspossible }
+getcontentoflastplace		misc.c	/^getcontentoflastplace (tumblerptr)/ ;" function 5 { }	{ mantissa }
+getcontentofsmallbottomfield		misc.c	/^getcontentofsmallbottomfield (smalltumblerptr)/ ;" function 5 { }	{ }
+grabspec		grabspec.c	/^grabspec (specptr, textptr)/ ;" function 27 { findtextinspec fixvmforrearrange }	{ copyspecset documenttype finddocumentinvmlist gerror med retrievefrombackend retrievefromvm retrievetextsize specfree spectype }
+grabspecwithouttext		grabspec.c	/^grabspecwithouttext (specptr)/ ;" function 16 { }	{ copyspecset gerror med retrievefrombackend specfree spectype }
+grimlyreapvm		vmreap.c	/^grimlyreapvm ()/ ;" function 15 { ealloc }	{ bool gerror grimreaper isreapable reap statusofalloc vmthingtype }
+grimreaper		vm.c	/^vmthingtype *grimreaper = NULL; \/* pointer to circ/ ;" global 1 { dumpreaper grimlyreapvm isreapable putinvmlist reap removefromvmlist }	{ }
+hashoftumbler		bert.c	/^hashoftumbler(tp)/ ;" function 11 { addtoopen checkforopen incrementopen removefromopen }	{ NPLACES NUMBEROFBERTTABLE mantissa primes }
+header		alloc.c	/^union header {/ ;" struct 7 { }	{ }
+incrementopen		bert.c	/^incrementopen(tp)/ ;" function 12 { }	{ bertentry berttable conscell hashoftumbler tumblereq }
+indexdocvposition		findlinks.c	/^tumbler indexdocvposition =     {0,0, 1,1,0,1,0,2,/ ;" global 1 { }	{ }
+inittask		inittask.c	/^inittask (taskptr, infile, outfile)/ ;" function 10 { copyinbackend createlinkinbackend createnewdocumentinbackend createnewversioninbackend deletefrombackend finddocscontaininginbackend inserttextinbackend negotiateprotocol openinbackend rearrangeinbackend retrievedocvspanset retrieveendsetfrombackend retrieveendsetswithinspecsetfrombackend retrievefrombackend retrievelinksetfrombackend showrelationof2versionsinbackend tellbackendtoquit }	{ FALSE }
+insertcharactersbeforespecifiedposition		grabspec.c	/^insertcharactersbeforespecifiedposition (specptr, / ;" function 19 { inserttext }	{ charspantype inserttextinbackend smalltumbler smalltumblerclear tasktype }
+inserttext		felibtop.c	/^inserttext(docidptr,position,text,fromset,toset)/ ;" function 16 { }	{ buildspec fixendsetvm fixvm insertcharactersbeforespecifiedposition med specfree spectype }
+inserttextinbackend		minxface.c	/^inserttextinbackend (taskptr, docidptr, vsaptr, ch/ ;" function 16 { insertcharactersbeforespecifiedposition }	{ BERTMODECOPYIF INSERT WRITEBERT inittask possiblyopen sendinsert takenumber }
+inserttextincharspanindocument		vmedit.c	/^inserttextincharspanindocument (charspanptr, spanp/ ;" function 33 { fixvm }	{ ealloc ffree gerror movmem nat }
+insertvmtypethinginlist		list.c	/^insertvmtypethinginlist (vmthing, position)/ ;" function 39 { putdocumentinvm puttextinvm }	{ CHARSPANTYPE DOCUMENTTYPE SPANTYPE SPECTYPE charspantype documenttype spantype vmthingtype }
+intersectspans		misc.c	/^intersectspans (taskptr, aspanptr, bspanptr, spanp/ ;" function 23 { findcommonspans }	{ FALSE TRUE smalltumblerclear spantype taskalloc }
+isreapable		vmreap.c	/^isreapable ()/ ;" function 14 { grimlyreapvm }	{ DOCUMENTTYPE FALSE OLD SPANTYPE SPECTYPE bool grimreaper issomeoneschild }
+issomeoneschild		list.c	/^issomeoneschild (vmthing)/ ;" function 19 { isreapable }	{ CHARSPANTYPE DOCUMENTTYPE FALSE SPANTYPE SPECTYPE bool vmthingtype }
+iszerosmalltumbler		tumtest.c	/^iszerosmalltumbler (tumblerptr)/ ;" function 5 { smalltumblercmp }	{ }
+iszerotumbler		festbot.h	/^#define iszerotumbler(tumblerptr)  (!((tumblerptr)/ ;" macro 1 { tumbleradd tumblercmp tumblerincrement tumblersub }	{ mantissa }
+jumplinktype		findlinks.c	/^smalltumbler jumplinktype     =      {0,0, 2,1}; \// ;" global 1 { findlinktype }	{ }
+lastdigitintumbler		tumtest.c	/^lastdigitintumbler (tumblerptr)/ ;" function 10 { }	{ mantissa med nstories }
+linkcontenttype		festbot.h	/^typedef struct structlinkcontent {/ ;" typedef 10 { }	{ }
+linkgrouptype		festbot.h	/^typedef struct structlinkgroup {/ ;" typedef 8 { }	{ }
+linkrestrictiontype		festbot.h	/^typedef struct structlinkrestriction {/ ;" typedef 10 { retrievelinksetfrombackend }	{ }
+linktypedoc		findlinks.c	/^tumbler linktypedoc       =     {0,0, 1,1,0,1,0,2,/ ;" global 1 { findlinktype maketempthreeset }	{ }
+linktypeisas		findlinks.c	/^smalltumbler *linktypeisas[] = {/ ;" global 6 { maketempthreeset }	{ }
+linktypelist		findlinks.c	/^char *linktypelist[] = {/ ;" global 6 { }	{ }
+loop		festbot.h	/^#define loop    for(;;)/ ;" macro 1 { ealloc }	{ }
+makecharspanintotext		vm.c	/^makecharspanintotext (charspanptr, spanptr, textpt/ ;" function 39 { retrievefromvm }	{ charspansarecontiguous charspantype rejuvinate removevmtypethingfromlist spanfree vmthingtype }
+makedocvsa		misc.c	/^makedocvsa (tumblerptr, smalltumblerptr, fulltumbl/ ;" function 15 { }	{ SMALLNPLACES findlastplace mantissa med movetumbler }
+makenewlink		felibtop.c	/^makenewlink(homedocptr,fromset,toset,type,linkptr)/ ;" function 14 { }	{ createlinkinbackend maketempthreeset specfree spectype tasktype tfree }
+makenewversion		felibtop.c	/^makenewversion(olddocptr,newdocptr)/ ;" function 6 { }	{ createnewversioninbackend tasktype }
+maketempthreeset		findlinks.c	/^maketempthreeset(linktypenum,tempthreesetptr)/ ;" function 9 { makenewlink }	{ linktypedoc linktypeisas movesmalltumbler movetumbler specspanalloc }
+mantissa		tumtest.c	/^return(!(tumblerptr -> mantissa[0]));/ ;" global 1 { absadd abscmp beheadtumbler dosendtumbler dotaketumbler dumptumbler findlastplace getcontentoflastplace hashoftumbler iszerotumbler lastdigitintumbler makedocvsa nstories prefixtumbler strongsub tumblerincrement tumblerintdiff tumblerjustify tumblertruncate weaksub }	{ }
+marginallinktype		findlinks.c	/^smalltumbler marginallinktype =      {0,0, 2,4}; \// ;" global 1 { findlinktype }	{ }
+maskspecalloc		freealloc.c	/^maskspecalloc ()/ ;" function 6 { }	{ specalloc spectype }
+max		misc.c	/^  nat / ;" function 5 { diff splitspan statusofalloc }	{ }
+med		fetypealias.h	/^typedef SHORT\/*yes really int*\/ med; \/* for things/ ;" typedef 1 { absadd abscmp abscmpsmall dosendtumbler dotaketumbler dumpcutseq dumpsmalltumbler findlastplace findwheretoputdocumentinvmlist grabspec grabspecwithouttext inserttext lastdigitintumbler makedocvsa ncharsinspec nstories pullblock puttextinvm rearrangetext senddocrangeset sendnum sendprotocol sendrearrange sendspanset sendspecset sendtext sendtextset speccmp strongsub takeprotocol taketext taskalloc tumblerincrement tumblerjustify tumblertruncate weaksub }	{ }
+memclear		usefull.c	/^memclear (addr, count)/ ;" function 11 { charspanalloc ffree sendnorestriction sendspan tumbleritemalloc }	{ }
+metachar		fetypealias.h	/^#define metachar SHORT/ ;" macro 1 { }	{ SHORT }
+min		fest.h	/^#define min(a,b)        (((a) < (b)) ? (a) : (b))/ ;" macro 1 { diff retrievefrombackend splitspan }	{ }
+movesmalltumbler		festbot.h	/^#define movesmalltumbler(A,B) *(B) = *(A)/ ;" macro 1 { copyspanset fixendsetvm fixvmforrearrange maketempthreeset puttextinvm retrievefrombackend }	{ }
+movetumbler		festbot.h	/^#define movetumbler(A,B) *(B) = *(A)/ ;" macro 1 { absadd beheadtumbler copyspecset copytumbleritemset findcomonspecset fixendsetvm makedocvsa maketempthreeset prefixtumbler putdocumentinvm retrievefrombackend strongsub tumbleradd tumblercopy tumblerincrement tumblerjustify tumblermax tumblermin tumblersub tumblertruncate weaksub }	{ }
+movmem		usefull.c	/^movmem (source, dest, count)/ ;" function 16 { deletetextfromdocumentinvm inserttextincharspanindocument puttextinvm retrievefrombackend }	{ gerror nat }
+nat		fetypealias.h	/^typedef int\/*yes really int*\/ nat; \/*for things th/ ;" typedef 1 { checkalloc docrangealloc documentalloc ealloc falloc fegetc inserttextincharspanindocument movmem pullblock pullc spanalloc specalloc statusofalloc taketext talloc tumbleralloc tumbleritemalloc viewalloc weresurethisisourmorecore }	{ }
+ncharsinspec		misc.c	/^ncharsinspec(specptr)/ ;" function 12 { findtextinspec }	{ med spantype }
+negotiateprotocol		minxface.c	/^negotiateprotocol(feproto)/ ;" function 14 { }	{ FALSE TRUE inittask sendprotocol takeprotocol tasktype }
+newcharspaninvm		vm.c	/^newcharspaninvm (specptr)/ ;" function 19 { fixvm }	{ appendvmtypethingtolist charspanalloc charspantype documenttype finddocumentinvmlist spantype vmthingtype }
+nstories		tumtest.c	/^nstories(tumblerptr)/ ;" function 8 { lastdigitintumbler }	{ NPLACES mantissa med }
+nthiteminlist		list.c	/^nthiteminlist (n, list)/ ;" function 11 { }	{ gerror vmthingtype }
+openenough		minxface.c	/^openenough(old,new)/ ;" function 33 { possiblyopen }	{ FALSE READBERT TRUE WRITEBERT }
+openinbackend		minxface.c	/^openinbackend(taskptr,tp,permission,mode)/ ;" function 29 { possiblyopen }	{ CLOSE OPEN checkforopen gerror inittask removefromopen sendclose sendopen takenumber takeopen tumbler }
+possiblyopen		minxface.c	/^possiblyopen(tp,permission,mode)/ ;" function 15 { copyinbackend createlinkinbackend createnewdocumentinbackend createnewversioninbackend deletefrombackend inserttextinbackend possiblyopenfromspec rearrangeinbackend retrievedocvspanset }	{ addtoopen checkforopen openenough openinbackend tasktype tumbler }
+possiblyopenfromspec		minxface.c	/^possiblyopenfromspec(specp,permission,mode)/ ;" function 9 { finddocscontaininginbackend retrievefrombackend showrelationof2versionsinbackend }	{ possiblyopen }
+prefixtumbler		tumble.c	/^prefixtumbler (aptr, bint, cptr)/ ;" function 12 { }	{ mantissa movetumbler tumbler tumbleradd tumblerclear }
+primes		bert.c	/^long primes[] =/ ;" global 2 { hashoftumbler }	{ }
+prompt		sendbot.c	/^prompt (taskptr, string)/ ;" function 6 { }	{ feputstring }
+ptftrv		festbot.h	/^typedef functionthatreturnsvoid (*ptftrv);/ ;" typedef 1 { }	{ }
+pullblock		inittask.c	/^pullblock(taskptr,buf,n)/ ;" function 28 { pullblock taketext }	{ FALSE fegetc gerror med nat pullblock }
+pullc		inittask.c	/^pullc (taskptr)/ ;" function 26 { dotaketumbler eatchar takenum takenumber takeprotocol takespecset taketdigit takevstuff }	{ FALSE fegetc gerror nat }
+pushc		inittask.c	/^pushc (taskptr, c)/ ;" function 12 { eatchar takenum taketdigit takevstuff }	{ TRUE error }
+putdocumentinvm		vm.c	/^putdocumentinvm (newdocid)/ ;" function 23 { createnewdocument finddocumenttoputtextin }	{ appendvmtypethingtolist documentalloc documentfree documenttype elif findwheretoputdocumentinvmlist insertvmtypethinginlist movetumbler putinvmlist vmbaseptr vmthingtype }
+putinvmlist		vmlist.c	/^putinvmlist (vmthing)/ ;" function 15 { putdocumentinvm puttextinvm }	{ grimreaper rejuvinate vmthingtype }
+puttextinvm		vm.c	/^puttextinvm (specptr, charspanptr)/ ;" function 45 { retrievefrombackend }	{ appendvmtypethingtolist charspanalloc charspantype documenttype elif finddocumenttoputtextin gerror insertvmtypethinginlist med movesmalltumbler movmem putinvmlist removefromvmlist removevmtypethingfromlist vmthingtype }
+quotelinktype		findlinks.c	/^smalltumbler quotelinktype    =      {0,0, 2,2}; \// ;" global 1 { findlinktype }	{ }
+reap		vmreap.c	/^reap ()/ ;" function 10 { grimlyreapvm }	{ grimreaper removefromvmlist removevmtypethingfromlist vmthingtype }
+rearrangeinbackend		minxface.c	/^rearrangeinbackend (taskptr, docidptr, cutseqptr)/ ;" function 17 { rearrangetext }	{ BERTMODECOPYIF REARRANGE WRITEBERT inittask possiblyopen sendrearrange takenumber }
+rearrangetext		felibtop.c	/^rearrangetext(docidptr,ncuts,c1,c2,c3,c4,fromset,t/ ;" function 26 { }	{ MAXCUTS cutseqtype fixvmforrearrange med rearrangeinbackend smalltumblerclear tasktype tfree }
+rejuvinate		vmreap.c	/^rejuvinate (ptr)/ ;" function 6 { findcharspaninvm finddocumentinvmlist makecharspanintotext putinvmlist }	{ NEW }
+removefromopen		bert.c	/^removefromopen(tp)/ ;" function 33 { openinbackend }	{ bertentry berttable conscell hashoftumbler tumblereq }
+removefromvmlist		vmlist.c	/^removefromvmlist (vmthing)/ ;" function 29 { deletetextfromdocumentinvm puttextinvm reap }	{ checkalloc dumpreaper grimreaper validallocthinge vmfree vmthingtype }
+removevmtypethingfromlist		list.c	/^removevmtypethingfromlist (vmthing)/ ;" function 52 { deletetextfromdocumentinvm makecharspanintotext puttextinvm reap retrievefromvm }	{ CHARSPANTYPE DOCUMENTTYPE SPANTYPE SPECTYPE charspantype documenttype elif spantype vmbaseptr vmthingtype }
+retrievedocendsets		grabspec.c	/^retrievedocendsets (taskptr, specptr, fromspecptrp/ ;" function 8 { findendsetsinspec }	{ TRUE bool retrieveendsetswithinspecsetfrombackend }
+retrievedocvspanset		minxface.c	/^retrievedocvspanset(docidptr,spansetptr)/ ;" function 18 { retrievetextsize }	{ BERTMODECOPYIF READBERT RETRIEVEDOCVSPANSET inittask possiblyopen sendretrievedocvspanset takenumber takeretrievedocvspanset tasktype }
+retrieveendsetfrombackend		minxface.c	/^retrieveendsetfrombackend (taskptr,linkidptr,which/ ;" function 21 { findlinkendset findlinkspecset findlinktype }	{ FOLLOWLINK dumptumbler gerror inittask sendfollowlink takefollowlink takenumber }
+retrieveendsetswithinspecsetfrombackend		minxface.c	/^retrieveendsetswithinspecsetfrombackend (taskptr,s/ ;" function 16 { findnextendset retrievedocendsets }	{ RETRIEVEENDSETS inittask sendretrieveendsets takenumber takeretrieveendsets }
+retrievefrombackend		minxface.c	/^retrievefrombackend (specptr, textptr)/ ;" function 52 { grabspec grabspecwithouttext }	{ BERTMODECOPYIF READBERT RETRIEVELEN RETRIEVEV charspantype inittask min movesmalltumbler movetumbler movmem possiblyopenfromspec puttextinvm sendretrievev spantype specfree specspanalloc spectype takenumber takeretrievev tasktype tfree tumbleritemtype }
+retrievefromvm		vm.c	/^retrievefromvm (specptrptr, textptrptr)/ ;" function 21 { grabspec }	{ charspantype findcharspaninvm makecharspanintotext removevmtypethingfromlist specfree vmbaseptr vmthingtype }
+retrievelinksetfrombackend		minxface.c	/^void retrievelinksetfrombackend (taskptr, specptr,/ ;" function 32 { findlinks }	{ FINDLINKSFROMTOTHREE gerror inittask linkrestrictiontype sendfindlinksfromtothree takefindlinksfromtothree takenumber }
+retrievetextsize		grabspec.c	/^retrievetextsize(docptr)/ ;" function 20 { grabspec }	{ FALSE TRUE gerror retrievedocvspanset spantype }
+sendaccount		sendtop.c	/^sendaccount(taskptr,acctptr, passwdptr)/ ;" function 10 { }	{ XACCOUNT sendnumber sendrequestbuffer sendtumbler tdigit }
+sendclose		sendtop.c	/^sendclose(taskptr,tp)/ ;" function 8 { openinbackend }	{ CLOSE sendnumber sendrequestbuffer sendtumbler tdigit }
+sendcopy		sendtop.c	/^sendcopy (taskptr, docidptr, vsaptr, specptr)/ ;" function 12 { copyinbackend }	{ COPY sendnumber sendrequestbuffer sendsmalltumbler sendspecset sendtumbler tdigit }
+sendcreatelink		sendtop.c	/^sendcreatelink (taskptr, docidptr, fromspecptr, to/ ;" function 18 { createlinkinbackend }	{ CREATELINK gerror sendnumber sendrequestbuffer sendspecset sendtumbler tdigit }
+sendcreatenewdocument		sendtop.c	/^sendcreatenewdocument (taskptr)/ ;" function 6 { createnewdocumentinbackend }	{ CREATENEWDOCUMENT sendnumber sendrequestbuffer tdigit }
+sendcreatenewversion		sendtop.c	/^sendcreatenewversion (taskptr, docidptr)/ ;" function 8 { createnewversioninbackend }	{ CREATENEWVERSION sendnumber sendrequestbuffer sendtumbler tdigit }
+senddeletevspan		sendtop.c	/^senddeletevspan (taskptr, docidptr, vspanptr)/ ;" function 10 { deletefrombackend }	{ DELETEVSPAN sendnumber sendrequestbuffer sendspan sendtumbler tdigit }
+senddiskexit		sendtop.c	/^senddiskexit (taskptr)/ ;" function 6 { tellbackendtoquit }	{ DISKEXIT sendnumber sendrequestbuffer tdigit }
+senddocrange		sendbot.c	/^senddocrange (outfile, docrangeptr)/ ;" function 7 { senddocrangeset }	{ sendtumbler }
+senddocrangeset		sendbot.c	/^senddocrangeset (outfile, docrangeset)/ ;" function 17 { sendlinkrestriction }	{ docrangetype med senddocrange sendnumber tdigit }
+sendfinddocscontaining		sendtop.c	/^sendfinddocscontaining (taskptr, specptr)/ ;" function 8 { finddocscontaininginbackend }	{ FINDDOCSCONTAINING sendnumber sendrequestbuffer sendspecset tdigit }
+sendfindlinksfromtothree		sendtop.c	/^sendfindlinksfromtothree (taskptr, linkrestriction/ ;" function 8 { retrievelinksetfrombackend }	{ FINDLINKSFROMTOTHREE sendlinkrestriction sendnumber sendrequestbuffer tdigit }
+sendfollowlink		sendtop.c	/^sendfollowlink (taskptr, linkptr, whichend)/ ;" function 10 { retrieveendsetfrombackend }	{ FOLLOWLINK sendnumber sendrequestbuffer sendtumbler tdigit }
+sendinsert		sendtop.c	/^sendinsert (taskptr, docidptr, vsaptr, charspanptr/ ;" function 12 { inserttextinbackend }	{ INSERT sendnumber sendrequestbuffer sendsmalltumbler sendtextset sendtumbler tdigit }
+sendlinkrestriction		sendbot.c	/^sendlinkrestriction (outfile, linkrestrictionptr)/ ;" function 9 { sendfindlinksfromtothree }	{ senddocrangeset sendspecset }
+sendnorestriction		sendbot.c	/^sendnorestriction (outfile, ishomeset)/ ;" function 16 { }	{ CURRENTMAXIMUMNUMBEROFNODES SPANFLAG WORDELIM feputc memclear sendnumber sendsmalltumbler smalltumbler tdigit }
+sendnum		sendbot.c	/^sendnum (outfile, num)/ ;" function 18 { dosendtumbler sendnumber }	{ feputc med }
+sendnumber		sendbot.c	/^sendnumber (outfile, num)/ ;" function 7 { sendaccount sendclose sendcopy sendcreatelink sendcreatenewdocument sendcreatenewversion senddeletevspan senddiskexit senddocrangeset sendfinddocscontaining sendfindlinksfromtothree sendfollowlink sendinsert sendnorestriction sendopen sendrearrange sendretrievedocvspan sendretrievedocvspanset sendretrieveendsets sendretrievev sendshowrelationof2versions sendspanset sendspecset sendtext sendtextset }	{ WORDELIM feputc sendnum }
+sendopen		sendtop.c	/^sendopen(taskptr,tp,permission,mode)/ ;" function 11 { openinbackend }	{ OPEN sendnumber sendrequestbuffer sendtumbler tdigit }
+sendprotocol		sendbot.c	/^sendprotocol(taskptr,proto)/ ;" function 14 { negotiateprotocol }	{ WORDELIM feputc med sendrequestbuffer }
+sendrearrange		sendtop.c	/^sendrearrange (taskptr, docidptr, cutseqptr)/ ;" function 14 { rearrangeinbackend }	{ REARRANGE med sendnumber sendrequestbuffer sendsmalltumbler sendtumbler tdigit }
+sendrequestbuffer		sendbot.c	/^sendrequestbuffer (taskptr)/ ;" function 6 { sendaccount sendclose sendcopy sendcreatelink sendcreatenewdocument sendcreatenewversion senddeletevspan senddiskexit sendfinddocscontaining sendfindlinksfromtothree sendfollowlink sendinsert sendopen sendprotocol sendrearrange sendretrievedocvspan sendretrievedocvspanset sendretrieveendsets sendretrievev sendshowrelationof2versions }	{ }
+sendretrievedocvspan		sendtop.c	/^sendretrievedocvspan (taskptr, docidptr)/ ;" function 8 { }	{ RETRIEVEDOCVSPAN sendnumber sendrequestbuffer sendtumbler tdigit }
+sendretrievedocvspanset		sendtop.c	/^sendretrievedocvspanset (taskptr, docidptr)/ ;" function 8 { retrievedocvspanset }	{ RETRIEVEDOCVSPANSET sendnumber sendrequestbuffer sendtumbler tdigit }
+sendretrieveendsets		sendtop.c	/^sendretrieveendsets (taskptr, specset)/ ;" function 8 { retrieveendsetswithinspecsetfrombackend }	{ RETRIEVEENDSETS sendnumber sendrequestbuffer sendspecset tdigit }
+sendretrievev		sendtop.c	/^sendretrievev (taskptr, specptr)/ ;" function 8 { retrievefrombackend }	{ RETRIEVEV sendnumber sendrequestbuffer sendspecset tdigit }
+sendshowrelationof2versions		sendtop.c	/^sendshowrelationof2versions (taskptr, specset1, sp/ ;" function 9 { showrelationof2versionsinbackend }	{ SHOWRELATIONOF2VERSIONS sendnumber sendrequestbuffer sendspecset tdigit }
+sendsmalltumbler		sendbot.c	/^sendsmalltumbler (outfile, smalltumblerptr)/ ;" function 6 { sendcopy sendinsert sendnorestriction sendrearrange sendspan }	{ SMALLNPLACES dosendtumbler tumbler }
+sendspan		sendbot.c	/^sendspan (outfile, spanptr)/ ;" function 16 { senddeletevspan sendspanset }	{ BIGVIEW memclear sendsmalltumbler smalltumbler }
+sendspanset		sendbot.c	/^sendspanset (outfile, spanset)/ ;" function 15 { sendspec }	{ med sendnumber sendspan spantype tdigit }
+sendspec		sendbot.c	/^sendspec (outfile, specptr)/ ;" function 9 { sendspecset }	{ VSPECFLAG WORDELIM feputc sendspanset sendtumbler }
+sendspecset		sendbot.c	/^sendspecset (outfile, specset)/ ;" function 16 { sendcopy sendcreatelink sendfinddocscontaining sendlinkrestriction sendretrieveendsets sendretrievev sendshowrelationof2versions }	{ med sendnumber sendspec spectype tdigit }
+sendtext		sendbot.c	/^sendtext (outfile, textptr)/ ;" function 21 { sendtextset }	{ TEXTFLAG WORDELIM feputc med sendnumber tdigit }
+sendtextset		sendbot.c	/^sendtextset (outfile, textset)/ ;" function 16 { sendinsert }	{ charspantype med sendnumber sendtext tdigit }
+sendtumbler		sendbot.c	/^sendtumbler (outfile, tumblerptr)/ ;" function 6 { sendaccount sendclose sendcopy sendcreatelink sendcreatenewversion senddeletevspan senddocrange sendfollowlink sendinsert sendopen sendrearrange sendretrievedocvspan sendretrievedocvspanset sendspec }	{ NPLACES dosendtumbler }
+setmem		usefull.c	/^setmem (addr, count, byte)/ ;" function 15 { smalltumblerclear tumblerclear }	{ }
+showcorrespondence		felibtop.c	/^showcorrespondence (spec1ptr,spec2ptr,corrsetptr)/ ;" function 7 { }	{ showrelationof2versionsinbackend tasktype }
+showrelationof2versionsinbackend		minxface.c	/^showrelationof2versionsinbackend (taskptr, version/ ;" function 16 { showcorrespondence }	{ BERTMODECOPYIF READBERT SHOWRELATIONOF2VERSIONS inittask possiblyopenfromspec sendshowrelationof2versions takenumber takeshowrelationof2versions }
+smalltumbler		festbot.h	/^typedef struct structsmalltumbler {/ ;" typedef 6 { charspanalloc createnewdocumentinbackend findlinktype insertcharactersbeforespecifiedposition sendnorestriction sendspan takespan }	{ }
+smalltumblerclear		tumble.c	/^smalltumblerclear (smalltumblerptr)/ ;" function 5 { buildspec clearvdisplacement insertcharactersbeforespecifiedposition intersectspans rearrangetext takesmalltumbler }	{ setmem }
+smalltumblercmp		tumtest.c	/^smalltumblercmp (aptr, bptr)/ ;" function 16 { smalltumblereq }	{ EQUAL GREATER LESS abscmpsmall bool iszerosmalltumbler }
+smalltumblereq		tumtest.c	/^smalltumblereq (aptr,bptr)/ ;" function 5 { findlinktype }	{ EQUAL smalltumblercmp }
+spanalloc		freealloc.c	/^spanalloc ()/ ;" function 14 { buildspec copyspanset specspanalloc }	{ SPANTYPE clearvdisplacement ealloc nat spanslyingaround spantype }
+spanfree		freealloc.c	/^spanfree (spanptr)/ ;" function 15 { makecharspanintotext specfree switch }	{ SPANTYPE bool ffree gerror spanslyingaround spantype validallocthing }
+spanslyingaround		freealloc.c	/^nat spanslyingaround = 0;/ ;" global 1 { spanalloc spanfree }	{ }
+spantype		festbot.h	/^typedef struct structspan {/ ;" typedef 9 { adjustendsetlist appendvmtypethingtolist buildspec copyspanset copyspecset dumpvmthing findcharspaninvm findcommonspans findspecspaninfromandtosetswithlowestvsa insertvmtypethinginlist intersectspans ncharsinspec newcharspaninvm removevmtypethingfromlist retrievefrombackend retrievetextsize sendspanset spanalloc spanfree specspanalloc splitspan switch takespanset }	{ }
+spanvsacmp		misc.c	/^spanvsacmp (spana, spanb)/ ;" function 18 { findspecspaninfromandtosetswithlowestvsa }	{ EQUAL GREATER LESS }
+specalloc		freealloc.c	/^specalloc ()/ ;" function 14 { buildspec copyspecset maskspecalloc specspanalloc viewalloc }	{ SPECTYPE cleardocid ealloc nat specslyingaround spectype }
+speccmp		misc.c	/^ med / ;" function 28 { }	{ EQUAL ONMYLEFTBORDER ONMYRIGHTBORDER THRUME TOMYLEFT TOMYRIGHT med tumblercmp }
+specfree		freealloc.c	/^specfree (specptr)/ ;" function 19 { deletetext findnextendset fixendsetvm fixvmforrearrange grabspec grabspecwithouttext inserttext makenewlink retrievefrombackend retrievefromvm switch }	{ SPECTYPE bool ffree gerror spanfree specslyingaround spectype validallocthing validallocthinge }
+specslyingaround		freealloc.c	/^nat specslyingaround = 0;/ ;" global 1 { specalloc specfree }	{ }
+specspanalloc		freealloc.c	/^specspanalloc ()  \/* allocate spec and first span / ;" function 12 { fixendsetvm fixvmforrearrange maketempthreeset retrievefrombackend }	{ appendvmtypethingtolist gerror spanalloc spantype specalloc spectype vmthingtype }
+spectype		festbot.h	/^typedef struct structspec {/ ;" typedef 8 { adjustendsetlist buildspec copyspecset deletetext dumpvmthing findcomonspecset finddocumentsincluding findendsetsinspec findlinkendset findlinkspecset findlinktype findnextendset findspecspaninfromandtosetswithlowestvsa fixendsetvm fixvmforrearrange grabspec grabspecwithouttext inserttext makenewlink maskspecalloc retrievefrombackend sendspecset specalloc specfree specspanalloc switch takeretrieveendsets takespecset }	{ }
+splitspan		vmedit.c	/^splitspan (spantobesplit, gapstart, gapwidth)/ ;" function 18 { adjustendsetlist }	{ copyspanset max min spantype }
+statusofalloc		alloc.c	/^statusofalloc(c)/ ;" function 15 { grimlyreapvm }	{ HEADER TRUE base checkalloc flag max nat }
+strongsub		tumadd.c	/^strongsub (aptr, bptr, cptr)/ ;" function 33 { tumbleradd }	{ NPLACES mantissa med movetumbler tumbler tumblerclear tumblereq }
+structcharspan		festbot.h	/^typedef struct structcharspan {/ ;" struct 9 { }	{ }
+structcorrespondence		festbot.h	/^typedef struct structcorrespondence {/ ;" struct 10 { }	{ }
+structcutseq		festbot.h	/^typedef struct structcutseq {/ ;" struct 4 { }	{ }
+structdocrange		festbot.h	/^typedef struct structdocrange {/ ;" struct 8 { }	{ }
+structdocument		festbot.h	/^typedef struct structdocument {/ ;" struct 11 { }	{ }
+structlinkcontent		festbot.h	/^typedef struct structlinkcontent {/ ;" struct 10 { }	{ }
+structlinkgroup		festbot.h	/^typedef struct structlinkgroup {/ ;" struct 8 { }	{ }
+structlinkrestriction		festbot.h	/^typedef struct structlinkrestriction {/ ;" struct 10 { }	{ }
+structsmalltumbler		festbot.h	/^typedef struct structsmalltumbler {/ ;" struct 6 { }	{ }
+structspan		festbot.h	/^typedef struct structspan {/ ;" struct 9 { }	{ }
+structspec		festbot.h	/^typedef struct structspec {/ ;" struct 8 { }	{ }
+structtask		festbot.h	/^typedef struct structtask {/ ;" struct 7 { }	{ }
+structtumbler		festbot.h	/^typedef struct structtumbler {/ ;" struct 5 { }	{ }
+structtumbleritem		festbot.h	/^typedef struct structtumbleritem {/ ;" struct 7 { }	{ }
+switch		vmlist.c	/^	switch(vmthing->vmdocument.typeofthing){/ ;" function 29 { }	{ CHARSPANTYPE DOCRANGETYPE DOCUMENTTYPE LINKCONTENTTYPE LINKGROUPTYPE LINKRESTRICTIONTYPE SPANTYPE SPECTYPE charspanfree charspantype documentfree documenttype ffree spanfree spantype specfree spectype }
+takeaddress		fetake.c	/^takeaddress (taskptr, addressptr)/ ;" function 12 { takeaddressset takevstuff }	{ FALSE TRUE bool taketumbler }
+takeaddressset		fetake.c	/^takeaddressset (taskptr, addresssetptr, nptr)/ ;" function 25 { takefinddocscontaining takefindlinksfromtothree takefindnextnlinksfromto }	{ FALSE TRUE bool takeaddress takenumber taskalloc tumbleritemtype }
+takecorrespondenceset		fetake.c	/^takecorrespondenceset (taskptr, correspondencesetp/ ;" function 28 { takeshowrelationof2versions }	{ FALSE TRUE correspondencetype falloc takenumber taketumbler }
+takecreatelink		fetake.c	/^takecreatelink (taskptr, linkid)/ ;" function 6 { createlinkinbackend }	{ taketumbler }
+takecreatenewdocument		fetake.c	/^takecreatenewdocument (taskptr, docid)/ ;" function 6 { createnewdocumentinbackend }	{ taketumbler }
+takecreatenewversion		fetake.c	/^takecreatenewversion (taskptr, docid)/ ;" function 6 { createnewversioninbackend }	{ taketumbler }
+takediskexit		fetake.c	/^takediskexit(taskptr)/ ;" function 6 { tellbackendtoquit }	{ takenumber }
+takefinddocscontaining		fetake.c	/^takefinddocscontaining (taskptr, addressptrptr,num/ ;" function 7 { finddocscontaininginbackend }	{ takeaddressset }
+takefindlinksfromtothree		fetake.c	/^takefindlinksfromtothree (taskptr, linkptrptr)/ ;" function 6 { retrievelinksetfrombackend }	{ takeaddressset }
+takefindnextnlinksfromto		fetake.c	/^takefindnextnlinksfromto (taskptr, linkptrptr, npt/ ;" function 8 { }	{ takeaddressset tumbleritemtype }
+takefindnumoflinksfromto		fetake.c	/^takefindnumoflinksfromto (taskptr, nptr)/ ;" function 6 { }	{ takenumber }
+takefollowlink		fetake.c	/^takefollowlink (taskptr, specptrptr)/ ;" function 13 { retrieveendsetfrombackend }	{ bool takespecset }
+takenum		fetake.c	/^takenum (taskptr, numptr)/ ;" function 18 { dotaketumbler taketdigit }	{ FALSE TRUE bool flag pullc pushc }
+takenumber		fetake.c	/^takenumber (taskptr, numptr)/ ;" function 18 { copyinbackend createlinkinbackend createnewdocumentinbackend createnewversioninbackend deletefrombackend finddocscontaininginbackend inserttextinbackend openinbackend rearrangeinbackend retrievedocvspanset retrieveendsetfrombackend retrieveendsetswithinspecsetfrombackend retrievefrombackend retrievelinksetfrombackend showrelationof2versionsinbackend takeaddressset takecorrespondenceset takediskexit takefindnumoflinksfromto takespanset takespecset taketext takevstuff }	{ FALSE TRUE WORDELIM bool flag pullc }
+takeopen		fetake.c	/^takeopen(taskptr,resultp)/ ;" function 6 { openinbackend }	{ taketumbler }
+takeprotocol		fetake.c	/^takeprotocol(taskptr,proto)/ ;" function 17 { negotiateprotocol }	{ FALSE PROTOLEN TRUE WORDELIM eatchar med pullc }
+takeretrievedocvspan		fetake.c	/^takeretrievedocvspan (taskptr, spanptr)/ ;" function 6 { }	{ takespan }
+takeretrievedocvspanset		fetake.c	/^takeretrievedocvspanset (taskptr, spanptrptr)/ ;" function 6 { retrievedocvspanset }	{ takespanset }
+takeretrieveendsets		fetake.c	/^takeretrieveendsets (taskptr, fromsetptr, tosetptr/ ;" function 19 { retrieveendsetswithinspecsetfrombackend }	{ FALSE bool gerror spectype takespecset }
+takeretrievev		fetake.c	/^takeretrievev (taskptr, textptrptr, addressptrptr)/ ;" function 8 { retrievefrombackend }	{ takevstuff }
+takeshowrelationof2versions		fetake.c	/^takeshowrelationof2versions (taskptr, corresponden/ ;" function 6 { showrelationof2versionsinbackend }	{ takecorrespondenceset }
+takesmalltumbler		fetake.c	/^takesmalltumbler (taskptr, smalltumblerptr)/ ;" function 8 { takespan }	{ SMALLNPLACES bool dotaketumbler smalltumblerclear tumbler }
+takespan		fetake.c	/^takespan (taskptr, spanptr)/ ;" function 17 { takeretrievedocvspan takespanset }	{ FALSE TRUE bool smalltumbler takesmalltumbler taketumbler }
+takespanset		fetake.c	/^takespanset (taskptr, spansetptr)/ ;" function 22 { takeretrievedocvspanset takespec }	{ FALSE SPANTYPE TRUE bool spantype takenumber takespan taskalloc }
+takespec		fetake.c	/^takespec (taskptr, specptr)/ ;" function 11 { takespecset }	{ bool takespanset taketumbler }
+takespecset		fetake.c	/^takespecset (taskptr, specsetptr)/ ;" function 44 { takefollowlink takeretrieveendsets }	{ FALSE SPANFLAG SPECTYPE TRUE VSPECFLAG WORDELIM bool pullc spectype takenumber takespec taketumbler taskalloc tumbler }
+taketdigit		fetake.c	/^taketdigit (taskptr, valueptr)/ ;" function 12 { dotaketumbler }	{ FALSE TUMDELIM pullc pushc takenum }
+taketext		fetake.c	/^taketext (taskptr, textptr)/ ;" function 16 { takevstuff }	{ FALSE TRUE bool med nat pullblock takenumber taskalloc }
+taketumbler		fetake.c	/^taketumbler (taskptr, tumblerptr)/ ;" function 8 { takeaddress takecorrespondenceset takecreatelink takecreatenewdocument takecreatenewversion takeopen takespan takespec takespecset }	{ NPLACES bool dotaketumbler tumblerclear }
+takevstuff		fetake.c	/^takevstuff (taskptr, textsetptr, addresssetptr)/ ;" function 35 { takeretrievev }	{ FALSE TEXTFLAG TRUE bool charspantype pullc pushc takeaddress takenumber taketext taskalloc tumbleritemtype }
+talloc		freealloc.c	/^talloc (spaceptr, nbytes)/ ;" function 12 { taskalloc }	{ ealloc nat }
+taskalloc		freealloc.c	/^taskalloc (taskptr, nbytes)/ ;" function 7 { findcomonspecset intersectspans takeaddressset takespanset takespecset taketext takevstuff }	{ med talloc }
+tasktype		festbot.h	/^typedef struct structtask {/ ;" typedef 7 { createnewdocument deletespecfrombe finddocumentsincluding findendsetsinspec findlinkendset findlinks findlinkspecset findlinktype insertcharactersbeforespecifiedposition makenewlink makenewversion negotiateprotocol possiblyopen rearrangetext retrievedocvspanset retrievefrombackend showcorrespondence tellbackendtoquit }	{ }
+tdigit		festbot.h	/^typedef unsigned long tdigit;/ ;" typedef 1 { abscmp abscmpsmall dosendtumbler sendaccount sendclose sendcopy sendcreatelink sendcreatenewdocument sendcreatenewversion senddeletevspan senddiskexit senddocrangeset sendfinddocscontaining sendfindlinksfromtothree sendfollowlink sendinsert sendnorestriction sendopen sendrearrange sendretrievedocvspan sendretrievedocvspanset sendretrieveendsets sendretrievev sendshowrelationof2versions sendspanset sendspecset sendtext sendtextset }	{ }
+tellbackendtoquit		minxface.c	/^tellbackendtoquit()/ ;" function 9 { }	{ inittask senddiskexit takediskexit tasktype }
+tempfromset		festbot.h	/^spectype *tempfromset;/ ;" global 1 { }	{ }
+tempthreeset		festbot.h	/^spectype *tempthreeset; \/* this will get a link is/ ;" global 1 { }	{ }
+temptoset		festbot.h	/^spectype *temptoset;/ ;" global 1 { }	{ }
+tfree		freealloc.c	/^tfree (spaceptr)/ ;" function 12 { finddocumentsincluding findendsetsinspec findlinkendset findlinks findlinkspecset findlinktype makenewlink rearrangetext retrievefrombackend }	{ ffree validallocthing }
+tumbler		festbot.h	/^typedef struct structtumbler {/ ;" typedef 5 { absadd beheadtumbler openinbackend possiblyopen prefixtumbler sendsmalltumbler strongsub takesmalltumbler takespecset tumbleralloc tumblerintdiff tumblerjustify tumblersub tumblertruncate weaksub }	{ }
+tumbleradd		tumadd.c	/^tumbleradd (aptr, bptr, cptr)  \/* Karnaugh map use/ ;" function 35 { prefixtumbler tumblersub }	{ GREATER absadd abscmp elif iszerotumbler movetumbler strongsub tumblerjustify weaksub }
+tumbleralloc		freealloc.c	/^tumbleralloc(tumblerptr)/ ;" function 6 { }	{ ealloc nat tumbler }
+tumblerclear		tumble.c	/^tumblerclear (tumblerptr)/ ;" function 5 { absadd cleardocid prefixtumbler strongsub taketumbler tumblerincrement tumblersub tumblertruncate weaksub }	{ setmem }
+tumblercmp		tumtest.c	/^tumblercmp (aptr, bptr)/ ;" function 14 { finddocumentinvmlist findspecspaninfromandtosetswithlowestvsa findwheretoputdocumentinvmlist speccmp tumblereq tumblermax tumblermin }	{ EQUAL GREATER LESS abscmp iszerotumbler }
+tumblercopy		tumble.c	/^tumblercopy (fromptr, toptr)/ ;" function 5 { addtoopen buildspec }	{ movetumbler }
+tumblereq		tumtest.c	/^tumblereq (aptr,bptr)/ ;" function 5 { adjustendsetlist buildspec checkforopen findcomonspecset findlinktype incrementopen removefromopen strongsub tumblersub weaksub }	{ EQUAL tumblercmp }
+tumblerfree		freealloc.c	/^tumblerfree (tumblerptr)/ ;" function 5 { }	{ ffree }
+tumblerincrement		tumadd.c	/^tumblerincrement (aptr, rightshift, bint, cptr)/ ;" function 23 { }	{ NPLACES gerror iszerotumbler mantissa med movetumbler tumblerclear tumblerjustify zdumptumbler }
+tumblerintdiff		tumadd.c	/^tumblerintdiff (aptr, bptr)/ ;" function 8 { }	{ mantissa tumbler tumblersub }
+tumbleritemalloc		freealloc.c	/^tumbleritemalloc ()/ ;" function 12 { copytumbleritemset }	{ TUMBLERITEMTYPE ealloc memclear nat tumbleritemtype }
+tumbleritemfree		freealloc.c	/^tumbleritemfree(tumbleritemptr)/ ;" function 15 { }	{ TUMBLERITEMTYPE bool ffree gerror tumbleritemtype validallocthing validallocthinge }
+tumbleritemtype		festbot.h	/^typedef struct structtumbleritem {/ ;" typedef 7 { copytumbleritemset dumpvmthing finddocumentsincluding findlinks retrievefrombackend takeaddressset takefindnextnlinksfromto takevstuff tumbleritemalloc tumbleritemfree }	{ }
+tumblerjustify		tumjust.c	/^tumblerjustify (tumblerptr)/ ;" function 27 { beheadtumbler tumbleradd tumblerincrement tumblersub tumblertruncate }	{ NPLACES mantissa med movetumbler tumbler }
+tumblermax		tumble.c	/^tumblermax (aptr, bptr, cptr)/ ;" function 8 { }	{ GREATER movetumbler tumblercmp }
+tumblermin		tumble.c	/^tumblermin (aptr, bptr, cptr)/ ;" function 10 { }	{ LESS movetumbler tumblercmp }
+tumblersub		tumadd.c	/^tumblersub (aptr, bptr, cptr)/ ;" function 35 { tumblerintdiff }	{ elif iszerotumbler movetumbler tumbler tumbleradd tumblerclear tumblereq tumblerjustify }
+tumblertruncate		tumble.c	/^tumblertruncate (aptr, bint, cptr)/ ;" function 17 { }	{ NPLACES mantissa med movetumbler tumbler tumblerclear tumblerjustify }
+ubig		fetypealias.h	/^typedef unsigned long ubig; \/*for random things th/ ;" typedef 1 { }	{ }
+unionvmthing		festbot.h	/^typedef union unionvmthing {/ ;" struct 12 { }	{ }
+validallocthing		alloc.c	/^validallocthing(ptr)/ ;" function 9 { charspanfree documentfree spanfree specfree tfree tumbleritemfree }	{ TRUE }
+validallocthinge		alloc.c	/^validallocthinge(ptr)/ ;" function 10 { ffree removefromvmlist specfree tumbleritemfree }	{ TRUE }
+viewalloc		freealloc.c	/^viewalloc()/ ;" function 11 { }	{ ealloc nat specalloc }
+vmbaseptr		vm.c	/^vmthingtype *vmbaseptr = NULL;  \/* base of v-strea/ ;" global 1 { dumpvm dumpvmlist finddocumentinvmlist findwheretoputdocumentinvmlist putdocumentinvm removevmtypethingfromlist retrievefromvm vmfree }	{ }
+vmfree		vmlist.c	/^vmfree(vmthing)/ ;" function 21 { removefromvmlist }	{ dumpreaper dumptumbler vmbaseptr }
+vmthingtype		festbot.h	/^typedef union unionvmthing {/ ;" typedef 12 { appendvmtypethingtolist deletetextfromdocumentinvm dumpreaper dumpvm dumpvmlist findcharspaninvm finddocumentinvmlist grimlyreapvm insertvmtypethinginlist issomeoneschild makecharspanintotext newcharspaninvm nthiteminlist putdocumentinvm putinvmlist puttextinvm reap removefromvmlist removevmtypethingfromlist retrievefromvm specspanalloc }	{ }
+void		feconfig.h	/^#define void int \/* compiler bug in 4.2*\// ;" macro 1 { }	{ }
+wait		inittask.c	/^wait()/ ;" function 4 { }	{ }
+weaksub		tumadd.c	/^weaksub (aptr, bptr, cptr)/ ;" function 23 { tumbleradd }	{ NPLACES mantissa med movetumbler tumbler tumblerclear tumblereq }
+weresurethisisourmorecore		alloc.c	/^weresurethisisourmorecore()/ ;" function 27 { falloc }	{ ALLOCSIZE HEADER allocp ffree flag flag1 nat zzallocbot zzalloctop }
+zdumptumbler		tumble.c	/^zdumptumbler (tumblerptr)/ ;" function 5 { absadd tumblerincrement }	{ }
+zzallocbot		alloc.c	/^  static char *zzalloctop=0,*zzallocbot=0;/ ;" global 1 { weresurethisisourmorecore }	{ }
+zzalloctop		alloc.c	/^  static char *zzalloctop=0,*zzallocbot=0;/ ;" global 1 { weresurethisisourmorecore }	{ }

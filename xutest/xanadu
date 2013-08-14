@@ -1,0 +1,3 @@
+stty raw
+intf backend fex
+stty -raw

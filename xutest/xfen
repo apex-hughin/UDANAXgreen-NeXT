@@ -1,0 +1,4 @@
+stty raw
+intf backend fen
+stty -raw
+

@@ -1,0 +1,426 @@
+%!PS-Adobe-2.0
+%%Title: marcsfe
+%%Creator: InterfaceBuilder
+%%CreationDate: Tue Nov 14 17:57:45 1989
+%%For: roger
+%%DocumentFonts: (atend)
+%%Pages: (atend) 1
+%%BoundingBox: (atend)
+%%DocumentPaperSizes: Letter
+%%Orientation: Portrait
+%%EndComments
+
+%%BeginFile: /usr/lib/NextStep//printPackage1.0.ps
+%!PSNext-1.0
+%%Title: Printing Package
+%%Copyright 1988, NeXT, Inc.
+%%CreationDate: 23Feb88
+%%PackageName: printPackage0.8.37
+%%PackageDescription: Routines to support printing
+%%EndComments
+
+%debugging aids
+%/clip {gsave 0.9 setgray 0.5 setlinewidth stroke grestore} def
+
+% simulations of DPS ops
+/__NXbdef {1 index where {pop pop pop} {bind def} ifelse} bind def
+/__NXUserObjectList 10 array __NXbdef
+/defineuserobject {
+    exch
+    dup 1 add
+    dup __NXUserObjectList length gt {
+	array dup 0 __NXUserObjectList putinterval
+	/__NXUserObjectList exch def
+    }
+    { pop }
+    ifelse
+    __NXUserObjectList exch 3 -1 roll put
+} __NXbdef
+/execuserobject {
+    __NXUserObjectList exch get exec
+} __NXbdef
+/__NXDoRectOp {
+    1 index type /arraytype eq {
+	exch aload length
+	dup 2 add -1 roll exch
+	4 idiv
+    }
+    { 1 }
+    ifelse
+    {
+	5 1 roll
+	newpath 4 2 roll moveto 1 index 0 rlineto
+		0 exch rlineto neg 0 rlineto closepath
+	dup cvx exec
+    } repeat pop
+} __NXbdef
+/rectclip {/clip __NXDoRectOp newpath} __NXbdef
+/rectfill {gsave /fill __NXDoRectOp grestore} __NXbdef
+/rectstroke {gsave /stroke __NXDoRectOp grestore} __NXbdef
+/arct {arcto pop pop pop pop} __NXbdef
+/setbbox {pop pop pop pop} __NXbdef
+/ucache {} __NXbdef
+/ucachestatus {mark 0 0 0 0 0} __NXbdef
+/setucacheparams {cleartomark} __NXbdef
+/uappend {systemdict begin cvx exec end} __NXbdef
+/ueofill {gsave newpath uappend eofill grestore} __NXbdef
+/ufill {gsave newpath uappend fill grestore} __NXbdef
+/ustroke {
+    gsave newpath
+    dup length 6 eq {
+	exch uappend concat 
+    } {
+	uappend
+    } ifelse
+    stroke grestore
+} __NXbdef
+/__NXustrokepathMatrix dup where {pop pop} {matrix def} ifelse
+/ustrokepath {
+    newpath
+    dup length 6 eq {
+	exch uappend
+	__NXustrokepathMatrix currentmatrix exch concat
+	strokepath setmatrix
+    } {
+	uappend strokepath
+    } ifelse
+} __NXbdef
+/upath {
+    [
+	exch {/ucache cvx} if
+	pathbbox /setbbox cvx
+	{/moveto cvx} {/lineto cvx} {/curveto cvx} {/closepath cvx} pathforall
+    ] cvx
+} __NXbdef
+/setstrokeadjust {pop} __NXbdef
+/currentstrokeadjust {false} __NXbdef
+/selectfont {
+    exch findfont exch
+    dup type /arraytype eq {
+	makefont
+    } {
+	scalefont
+    } ifelse setfont
+} __NXbdef
+/_NXCombineArrays {
+    counttomark dup 2 add index
+    dup length 3 -1 roll {
+	2 index length sub
+	dup 4 1 roll
+	1 index exch 4 -1 roll
+	putinterval exch
+    } repeat
+    pop pop pop
+} __NXbdef
+
+% simulations of NeXT additions to DPS
+/flushgraphics {} def
+/hidecursor {} def
+/obscurecursor {} def
+/revealcursor {} def
+/setcursor {4 {pop} repeat} bind def
+/showcursor {} def
+
+
+%%EndFile
+
+%%EndProlog
+%%BeginSetup
+%%PaperSize: Letter
+%%Feature: *ManualFeed False
+%%Feature: *Resolution 400
+%%EndSetup
+
+%%Page: 1 1
+%%PageBoundingBox: 258.500000 244.500000 353.500000 547.500000
+%%PageFonts: (atend)
+%%BeginPageSetup
+%%PaperSize: Letter
+/__NXsheetsavetoken save def
+258.5 244.5 translate
+gsave
+0 0 translate
+%%EndPageSetup
+gsave
+0 0 95 303 rectclip
+0.333333 setgray
+0 302 95 1 rectfill
+0 0 1 302 rectfill
+0 setgray
+1 280 94 1 rectfill
+94 281 1 21 rectfill
+1 setgray
+1 301 93 1 rectfill
+1 281 1 20 rectfill
+0.333333 setgray
+2 281 92 1 rectfill
+93 282 1 19 rectfill
+0 setgray
+2 282 91 19 rectfill
+gsave
+/Helvetica-Bold findfont 12 scalefont [1 0 0 -1 0 0] makefont
+148
+exch
+defineuserobject
+148 execuserobject setfont
+1 setgray
+[1 0 0 -1 0 583] concat
+148 execuserobject setfont
+1 setgray
+6 296 moveto (marcsfe) show
+grestore
+0.666667 setgray
+1 0 94 280 rectfill
+gsave
+1 0 94 280 rectclip
+[1 0 0 -1 1 280] concat
+0 setgray
+0 19 94 1 rectfill
+93 0 1 19 rectfill
+1 setgray
+0 0 93 1 rectfill
+0 1 1 18 rectfill
+0.333333 setgray
+92 1 1 18 rectfill
+1 18 91 1 rectfill
+0.666667 setgray
+1 1 91 17 rectfill
+/Helvetica findfont 12 scalefont [1 0 0 -1 0 0] makefont
+9
+exch
+defineuserobject
+9 execuserobject setfont
+0 setgray
+5 14 moveto (Info...) show
+0 setgray
+0 39 94 1 rectfill
+93 20 1 19 rectfill
+1 setgray
+0 20 93 1 rectfill
+0 21 1 18 rectfill
+0.333333 setgray
+92 21 1 18 rectfill
+1 38 91 1 rectfill
+0.666667 setgray
+1 21 91 17 rectfill
+<aaaaaaa86aaaa896aaa8a96aa8aabaa8abeaa8beaaa8eaaaaaaaaa> 12 9 2 [1 0 0 1 -78 -25] {
+    
+} image
+9 execuserobject setfont
+0 setgray
+5 34 moveto (Edit) show
+0 setgray
+0 59 94 1 rectfill
+93 40 1 19 rectfill
+1 setgray
+0 40 93 1 rectfill
+0 41 1 18 rectfill
+0.333333 setgray
+92 41 1 18 rectfill
+1 58 91 1 rectfill
+0.666667 setgray
+1 41 91 17 rectfill
+<aaaaaaa86aaaa896aaa8a96aa8aabaa8abeaa8beaaa8eaaaaaaaaa> 12 9 2 [1 0 0 1 -78 -45] {
+    
+} image
+9 execuserobject setfont
+0 setgray
+5 54 moveto (File) show
+0 setgray
+0 79 94 1 rectfill
+93 60 1 19 rectfill
+1 setgray
+0 60 93 1 rectfill
+0 61 1 18 rectfill
+0.333333 setgray
+92 61 1 18 rectfill
+1 78 91 1 rectfill
+0.666667 setgray
+1 61 91 17 rectfill
+<aaaaaaa86aaaa896aaa8a96aa8aabaa8abeaa8beaaa8eaaaaaaaaa> 12 9 2 [1 0 0 1 -78 -65] {
+    
+} image
+9 execuserobject setfont
+0 setgray
+5 74 moveto (Preferences) show
+0 setgray
+0 99 94 1 rectfill
+93 80 1 19 rectfill
+1 setgray
+0 80 93 1 rectfill
+0 81 1 18 rectfill
+0.333333 setgray
+92 81 1 18 rectfill
+1 98 91 1 rectfill
+0.666667 setgray
+1 81 91 17 rectfill
+<aaaaaaa86aaaa896aaa8a96aa8aabaa8abeaa8beaaa8eaaaaaaaaa> 12 9 2 [1 0 0 1 -78 -85] {
+    
+} image
+9 execuserobject setfont
+0 setgray
+5 94 moveto (Arrange) show
+0 setgray
+0 119 94 1 rectfill
+93 100 1 19 rectfill
+1 setgray
+0 100 93 1 rectfill
+0 101 1 18 rectfill
+0.333333 setgray
+92 101 1 18 rectfill
+1 118 91 1 rectfill
+0.666667 setgray
+1 101 91 17 rectfill
+<aaaaaaa86aaaa896aaa8a96aa8aabaa8abeaa8beaaa8eaaaaaaaaa> 12 9 2 [1 0 0 1 -78 -105] {
+    
+} image
+9 execuserobject setfont
+0 setgray
+5 114 moveto (Create) show
+0 setgray
+0 139 94 1 rectfill
+93 120 1 19 rectfill
+1 setgray
+0 120 93 1 rectfill
+0 121 1 18 rectfill
+0.333333 setgray
+92 121 1 18 rectfill
+1 138 91 1 rectfill
+0.666667 setgray
+1 121 91 17 rectfill
+<aaaaaaa86aaaa896aaa8a96aa8aabaa8abeaa8beaaa8eaaaaaaaaa> 12 9 2 [1 0 0 1 -78 -125] {
+    
+} image
+9 execuserobject setfont
+0 setgray
+5 134 moveto (Compose) show
+0 setgray
+0 159 94 1 rectfill
+93 140 1 19 rectfill
+1 setgray
+0 140 93 1 rectfill
+0 141 1 18 rectfill
+0.333333 setgray
+92 141 1 18 rectfill
+1 158 91 1 rectfill
+0.666667 setgray
+1 141 91 17 rectfill
+<aaaaaaa86aaaa896aaa8a96aa8aabaa8abeaa8beaaa8eaaaaaaaaa> 12 9 2 [1 0 0 1 -78 -145] {
+    
+} image
+9 execuserobject setfont
+0 setgray
+5 154 moveto (Search) show
+0 setgray
+0 179 94 1 rectfill
+93 160 1 19 rectfill
+1 setgray
+0 160 93 1 rectfill
+0 161 1 18 rectfill
+0.333333 setgray
+92 161 1 18 rectfill
+1 178 91 1 rectfill
+0.666667 setgray
+1 161 91 17 rectfill
+<aaaaaaa86aaaa896aaa8a96aa8aabaa8abeaa8beaaa8eaaaaaaaaa> 12 9 2 [1 0 0 1 -78 -165] {
+    
+} image
+9 execuserobject setfont
+0 setgray
+5 174 moveto (Formats) show
+0 setgray
+0 199 94 1 rectfill
+93 180 1 19 rectfill
+1 setgray
+0 180 93 1 rectfill
+0 181 1 18 rectfill
+0.333333 setgray
+92 181 1 18 rectfill
+1 198 91 1 rectfill
+0.666667 setgray
+1 181 91 17 rectfill
+<aaaaaaa86aaaa896aaa8a96aa8aabaa8abeaa8beaaa8eaaaaaaaaa> 12 9 2 [1 0 0 1 -78 -185] {
+    
+} image
+9 execuserobject setfont
+0 setgray
+5 194 moveto (Font) show
+0 setgray
+0 219 94 1 rectfill
+93 200 1 19 rectfill
+1 setgray
+0 200 93 1 rectfill
+0 201 1 18 rectfill
+0.333333 setgray
+92 201 1 18 rectfill
+1 218 91 1 rectfill
+0.666667 setgray
+1 201 91 17 rectfill
+9 execuserobject setfont
+0 setgray
+5 214 moveto (Print ...) show
+0 setgray
+0 239 94 1 rectfill
+93 220 1 19 rectfill
+1 setgray
+0 220 93 1 rectfill
+0 221 1 18 rectfill
+0.333333 setgray
+92 221 1 18 rectfill
+1 238 91 1 rectfill
+0.666667 setgray
+1 221 91 17 rectfill
+<aaaaaaa86aaaa896aaa8a96aa8aabaa8abeaa8beaaa8eaaaaaaaaa> 12 9 2 [1 0 0 1 -78 -225] {
+    
+} image
+9 execuserobject setfont
+0 setgray
+5 234 moveto (Comparison) show
+0 setgray
+0 259 94 1 rectfill
+93 240 1 19 rectfill
+1 setgray
+0 240 93 1 rectfill
+0 241 1 18 rectfill
+0.333333 setgray
+92 241 1 18 rectfill
+1 258 91 1 rectfill
+0.666667 setgray
+1 241 91 17 rectfill
+9 execuserobject setfont
+0 setgray
+80 254 moveto (h) show
+9 execuserobject setfont
+0 setgray
+5 254 moveto (Hide) show
+0 setgray
+0 279 94 1 rectfill
+93 260 1 19 rectfill
+1 setgray
+0 260 93 1 rectfill
+0 261 1 18 rectfill
+0.333333 setgray
+92 261 1 18 rectfill
+1 278 91 1 rectfill
+0.666667 setgray
+1 261 91 17 rectfill
+9 execuserobject setfont
+0 setgray
+80 274 moveto (q) show
+9 execuserobject setfont
+0 setgray
+5 274 moveto (Quit) show
+grestore
+grestore
+grestore
+showpage
+__NXsheetsavetoken restore
+%PageTrailer
+%%PageFonts: Helvetica-Bold
+%+ Helvetica
+%%Trailer
+%%DocumentFonts: Helvetica-Bold
+%+ Helvetica
+%%Pages: 1 1
+%%BoundingBox:258.500000 244.500000 353.500000 547.500000
+
